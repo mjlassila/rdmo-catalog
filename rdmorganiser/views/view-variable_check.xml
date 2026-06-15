@@ -15,6 +15,8 @@
 		<help lang="it">per controllo interno</help>
 		<title lang="es">Lista de todas las variables</title>
 		<help lang="es">para el control interno</help>
+		<title lang="fi">Kaikkien muuttujien luettelo</title>
+		<help lang="fi">sisäistä tarkistusta varten</help>
 		<catalogs/>
 		<template>{% load view_tags %}
 {% get_set 'project/dataset/id' as datasets %}

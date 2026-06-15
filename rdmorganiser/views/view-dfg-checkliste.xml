@@ -15,6 +15,8 @@
 		<help lang="it">Vista per la lista di controllo della DFG sul: "Trattamento dei dati della ricerca"</help>
 		<title lang="es">Lista de control de la DFG</title>
 		<help lang="es">Vista para la lista de control de la DFG sobre: "Manejo de datos de la investigación"</help>
+		<title lang="fi">DFG-tarkistuslista (RDMO-työryhmä)</title>
+		<help lang="fi">Näkymä DFG:n tarkistuslistalle aiheesta: "Tutkimusaineistojen käsittely"</help>
 		<catalogs>
 			<catalog dc:uri="https://rdmorganiser.github.io/terms/questions/DFG-Checkliste"/>
 		</catalogs>

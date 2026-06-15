@@ -30,11 +30,17 @@
 - utilizza le domande originali dell'UE;
 - inserisce automaticamente i riferimenti alle domande che sono già state poste in una forma simile.</help>
 		<title lang="es">Horizon Europe</title>
+		<title lang="fi">Horizon Europe</title>
 		<help lang="es">Este catálogo está destinado a proyectos de investigación financiados por la Comisión Europea en el programa Horizon Europe. Se ha elaborado de acuerdo con la &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Plantilla de Plan de Gestión de Datos, Versión 1.0 del 5 de mayo de 2021&lt;/a&gt;. Algunas de las preguntas de la UE se desglosan en subpreguntas. Además, para muchas preguntas existe la opción de responder a la pregunta en referencia a síngulos conjuntos de datos. Existe una vista adecuada para la salida del plan de gestión de datos, que
 
 - produce el plan de gestión de datos en la forma deseada por la UE;
 - utiliza las preguntas originales de la UE;
 - inserta automáticamente referencias a preguntas que ya se han formulado de forma similar.</help>
+		<help lang="fi">Tämä katalogi on tarkoitettu tutkimusprojekteille, joita rahoitetaan EU:n Horizon Europe -ohjelmasta. Se on laadittu &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;aineistonhallintasuunnitelman mallipohjan, version 1.0, 5. toukokuuta 2021&lt;/a&gt; mukaisesti. Osa EU:n kysymyksistä on jaettu alakysymyksiin. Lisäksi moniin kysymyksiin voi vastata tietoaineistokohtaisesti. Aineistonhallintasuunnitelman tulostusta varten on käytettävissä sopiva näkymä, joka
+
+- tuottaa aineistonhallintasuunnitelman EU:n edellyttämässä toimitettavassa muodossa;
+- käyttää alkuperäisiä EU-kysymyksiä;
+- lisää automaattisesti viittauksia kysymyksiin, jotka on jo esitetty samankaltaisessa muodossa.</help>
 		<sections>
 			<section dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/general" order="0"/>
 			<section dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary" order="1"/>
@@ -55,6 +61,7 @@
 		<title lang="fr">Général</title>
 		<title lang="it">Generale</title>
 		<title lang="es">General</title>
+		<title lang="fi">Yleistä</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/general/general" order="1"/>
 		</pages>
@@ -94,8 +101,15 @@
 - che inserisce automaticamente riferimenti a domande simili già risposte in precedenza.</help>
 		<verbose_name lang="it"/>
 		<title lang="es">Informaciones generales sobre el proyecto</title>
+		<title lang="fi">Projektin perustiedot</title>
 		<help lang="es">.....</help>
+		<help lang="fi">Tämä kysely on tarkoitettu tutkimusprojekteille, joita rahoitetaan EU:n Horizon Europe -ohjelmasta. Se on laadittu &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;aineistonhallintasuunnitelman mallipohjan, version 1.0, 5. toukokuuta 2021&lt;/a&gt; mukaisesti. Osa EU:n kysymyksistä on jaettu alakysymyksiin. Lisäksi moniin kysymyksiin voi vastata tietoaineistokohtaisesti. Aineistonhallintasuunnitelman tulostusta varten on käytettävissä sopiva näkymä, joka
+
+- tuottaa aineistonhallintasuunnitelman EU:n edellyttämässä toimitettavassa muodossa,
+- käyttää alkuperäisiä EU-kysymyksiä,
+- lisää automaattisesti viittauksia kysymyksiin, jotka on jo esitetty samankaltaisessa muodossa</help>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/general/general/grant_nr" order="1"/>
@@ -130,9 +144,13 @@
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">¿Abajo qué número fue emitido el financiamiento de este proyecto?</help>
+		<help lang="fi">Millä avustusnumerolla rahoitus on myönnetty?</help>
 		<text lang="es">Número del proyecto:</text>
+		<text lang="fi">Projektin viitenumero:</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -169,9 +187,13 @@
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Título corto / acrónimo del proyecto</help>
+		<help lang="fi">Projektin lyhyt nimi / akronyymi</help>
 		<text lang="es">Acrónimo del proyecto:</text>
+		<text lang="fi">Projektin akronyymi:</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -208,9 +230,13 @@
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Título completo del proyecto</help>
+		<help lang="fi">Projektin täydellinen nimi</help>
 		<text lang="es">Título del proyecto:</text>
+		<text lang="fi">Projektin nimi:</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -247,9 +273,13 @@
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Fecha de hoy</help>
+		<help lang="fi">Tämän päivän päivämäärä</help>
 		<text lang="es">Fecha:</text>
+		<text lang="fi">Päivämäärä:</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>date</widget_type>
@@ -286,9 +316,13 @@
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">¿De qué versión del plan de gestión de los datos se trata?</help>
+		<help lang="fi">Mikä versio aineistonhallintasuunnitelmasta tämä on?</help>
 		<text lang="es">Versión del plan:</text>
+		<text lang="fi">Aineistonhallintasuunnitelman versio:</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -310,6 +344,7 @@
 		<title lang="fr">Classification disciplinaire et technique des données</title>
 		<title lang="it">Classificazione dei dati sotto il profilo disciplinare e tecnico</title>
 		<title lang="es">Clasificación disciplinar y técnica de los datos</title>
+		<title lang="fi">Aineiston tieteenalakohtainen ja tekninen luokittelu</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/data-generation" order="1"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/type" order="2"/>
@@ -454,6 +489,7 @@ Si può procedere in questo modo:
 Assegnare a ciascuna raccolta di dati un nome significativo ma breve che rifletta il lavoro di ricerca. Questo nome verrà utilizzato per etichettare la scheda corrispondente in RDMO.</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Creados o reutilizados</title>
+		<title lang="fi">Tuotettu tai uudelleenkäytetty</title>
 		<help lang="es">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Pregunta originaria:&lt;/a&gt; &lt;i&gt;Will you re-use any existing data and what will you re-use it for? State the reasons if re-use of any existing data has been considered but discarded.&lt;/i&gt;
 
 Las siguientes preguntas están diseñadas para describir los conjuntos de datos generados y/o utilizados en el proyecto. También ayudan a evaluar el valor de los datos en cuanto a su posible reutilización y posterior archivo.
@@ -490,7 +526,38 @@ Puede proceder de la siguiente manera:
 &lt;/details&gt;
 
 Asigne a cada &quot;conjunto de datos&quot; un nombre significativo pero breve que refleje el trabajo de investigación. Este nombre se utilizará para etiquetar la pestaña correspondiente en RDMO.</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Käytättekö uudelleen olemassa olevaa aineistoa ja mihin tarkoitukseen? Perustelkaa, jos olemassa olevan aineiston uudelleenkäyttöä on harkittu mutta siitä on luovuttu.&lt;/i&gt;
+
+&lt;h3&gt;Aineiston jäsentäminen tietoaineistoiksi&lt;/h3&gt;
+
+Seuraavat kysymykset koskevat projektissa tuotetun tai uudelleenkäytetyn tutkimusaineiston sisältöä, muotoa, alkuperää ja hallintaa. Kysymyksiin on parasta vastata jakamalla aineisto loogisiin kokonaisuuksiin, koska eri kokonaisuudet voivat edellyttää erilaisia vastauksia. Samat kysymykset esitetään jokaisesta tällaisesta tietoaineistosta. Tietoaineistot voivat edustaa laajempia kategorioita, joilla on samankaltaisia ominaisuuksia ja aineistonhallinnan vaatimuksia.
+
+&lt;details&gt;&lt;summary style=&quot;cursor:pointer&quot;&gt;Napsauta tästä nähdäksesi vinkkejä projektiaineiston jakamiseen tietoaineistoiksi&lt;/summary&gt;
+
+&lt;p style=&quot;text-indent: 2em;margin-bottom:5px;&quot;&gt;Voit edetä seuraavasti:&lt;/p&gt;
+
+&lt;ul style=&quot;margin-bottom:5px;&quot;&gt;
+  &lt;li&gt;Muodosta yleiskuva tutkimustoiminnassasi tuotettavasta tai käytettävästä aineistosta.&lt;/li&gt;
+  &lt;li&gt;Arvioi aineistoa seuraavien kriteerien perusteella:&lt;ul&gt;
+    &lt;li&gt;Alkuperä/tuottaminen: tuotettu (esim. havainnointi/mittaus, koe, kysely, simulaatio, verkkoharavointi) tai uudelleenkäytetty;&lt;/li&gt;
+    &lt;li&gt;Tallennustilan tarve: esim. &amp;lt;1 GB, ~10 TB;&lt;/li&gt;
+    &lt;li&gt;Dokumentointivaatimukset:&lt;ul&gt;
+      &lt;li&gt;Esimerkki A: yksityiskohtainen kuvaus otoksen muodostamisesta ja aineistonkeruusta;&lt;/li&gt;
+      &lt;li&gt;Esimerkki B: mittalaitteiden ja mittausparametrien kuvaus;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;Tietosuojaan liittyvät näkökohdat: henkilötiedot, arkaluonteinen muu kuin henkilötieto, julkinen aineisto;&lt;/li&gt;
+    &lt;li&gt;Merkittävyys/uudelleenkäyttöpotentiaali: korkea (viiteaineisto), keskitaso (varsinainen tieteellinen tutkimus), matala (esiselvitys);&lt;/li&gt;
+    &lt;li&gt;Aineiston julkaiseminen: kyllä/ei, suunniteltu repositorio, suunniteltu toteutus ja rahoitus;&lt;/li&gt;
+    &lt;li&gt;Pitkäaikaissäilytys: kyllä/ei, suunniteltu tiedostomuoto, suunniteltu toteutus ja rahoitus.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;Päätä projektiaineiston tarkoituksenmukaisin jako tietoaineistoihin siten, että eri tietoaineistoihin sijoitetaan vain aineistoja, jotka eroavat näiden kriteerien kannalta olennaisesti. Luo sopiva määrä yhtenäisiä tietoaineistoja: riittävän monta, jotta ehdollisia vastauksia ei tarvita, mutta riittävän vähän, jotta samojen vastausten toistuminen vältetään.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;text-indent: 2em;&quot;&gt;Kaksi esimerkkiä projekteista, joissa aineistot on jaettu tietoaineistoihin, löytyy &lt;a href=&quot;https://gl.mathhub.info/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/Beispiele_und_Hilfen/Hilfe_Datenkategorie_en.md&quot; target=&quot;_blank&quot;&gt;täältä&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/details&gt;
+
+Anna jokaiselle tietoaineistolle kuvaava mutta lyhyt nimi, joka heijastaa tutkimustyötä. Tätä nimeä käytetään vastaavan välilehden otsikkona RDMOssa.</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/data-generation/origin" order="1"/>
@@ -530,9 +597,15 @@ La domanda &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunit
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Ennen uuden aineiston tuottamista on suositeltavaa tarkistaa, onko olemassa aineistoja, joita voitaisiin käyttää uudelleen. Näin vältetään tutkimusaineiston päällekkäinen kerääminen tai tuottaminen. Tämä säästää työtä ja kustannuksia.
+
+&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alakysymys&lt;/a&gt; &lt;i&gt;&quot;and what will you re-use them for?&quot;&lt;/i&gt; esitetään hyvin samankaltaisessa muodossa kohdassa &quot;Tarkoitus&quot;, ja siihen voidaan vastata siellä. Jos käytät Horizon Europe -näkymää tämän aineistonhallintasuunnitelman (DMP) tuottamiseen, tähän kohtaan lisätään automaattisesti viittaus myöhempään kysymykseen. Näkymä toimii näin kaikkien &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Horizon Europe Data Management Plan Template&lt;/a&gt; -malliin sisältyvien päällekkäisten kysymysten kohdalla. Lisäksi näkymä muuntaa DMP:n Horizon Europen suosimaan toimitettavaan muotoon.</help>
 		<text lang="es">La colección de datos ¿se está creando durante el proyecto o es reutilizada?</text>
+		<text lang="fi">Tuotetaanko tietoaineisto projektissa vai käytetäänkö sitä uudelleen?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -571,9 +644,13 @@ La domanda &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunit
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">Si se crean, ¿existen ya datos de investigación similares disponibles y por qué su uso posterior no es posible o útil aquí?</text>
+		<text lang="fi">Jos tietoaineisto tuotetaan projektissa, onko saatavilla jo olemassa olevaa samankaltaista tutkimusaineistoa, ja miksi sen myöhempi käyttö ei ole tässä mahdollista tai tarkoituksenmukaista?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -605,8 +682,11 @@ La domanda &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunit
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Tipo de datos</title>
+		<title lang="fi">Aineistotyyppi</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Minkä tyyppistä ja missä muodoissa olevaa aineistoa projekti tuottaa tai käyttää uudelleen?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/type/data_kind" order="3"/>
@@ -668,9 +748,19 @@ Si prega di spiegare anche se la raccolta di dati è fissa e memorizzata in un c
 * software desarrollado dentro del proyecto
 
 Explique también si se trata de una colección de datos fijo almacenado en un momento determinado o si se crea dinámicamente durante un período de tiempo determinado.</help>
+		<help lang="fi">Kuvaa lyhyesti aineistotyyppi ja/tai menetelmä, jolla aineisto tuotetaan tai kerätään, esimerkiksi:
+
+* määrällinen verkkokysely
+* 3D-malli / digitaalinen rekonstruktio kivikautisesta asuinpaikasta
+* pyyhkäisyelektronimikroskooppikuvat
+
+Selitä myös, onko kyseessä tiettynä ajankohtana tallennettu kiinteä tietoaineisto vai syntyykö aineisto dynaamisesti tietyn ajanjakson aikana.</help>
 		<text lang="es">¿Qué tipo de datos trata?</text>
+		<text lang="fi">Minkälaisesta tietoaineistosta on kyse?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -707,9 +797,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Al elegir un formato de datos, se deben considerar las consecuencias para el uso colaborativo, la conservación a largo plazo y la reutilización. Es recomendable preferir formatos estandarizados, abiertos, no propietarios y bien establecidos en la comunidad académica respectiva.</help>
+		<help lang="fi">Aineistomuotoa valittaessa on syytä ottaa huomioon vaikutukset yhteiskäyttöön, pitkäaikaissäilytykseen ja uudelleenkäyttöön. On suositeltavaa suosia standardoituja, avoimia, ei-proprietaarisia ja asianomaisessa tiedeyhteisössä vakiintuneita formaatteja. Suosituksia löytyy esimerkiksi &lt;a href=&quot;https://www.howtofair.dk/how-to-fair/file-formats/&quot; target=&quot;_blank&quot;&gt;How to FAIR&lt;/a&gt; -sivustolta.</help>
 		<text lang="es">¿Qué formatos de archivo se utilizan?</text>
+		<text lang="fi">Mitä tiedostomuotoja käytetään?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -743,8 +837,11 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Objetivo</title>
+		<title lang="fi">Tarkoitus</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Mikä on aineiston tuottamisen tai uudelleenkäytön tarkoitus ja sen suhde projektin tavoitteisiin?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/purpose/usage_description" order="5"/>
@@ -775,9 +872,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Cómo / con qué propósito se utilizará esta colección de datos durante el proyecto?</text>
+		<text lang="fi">Miten / mihin tarkoitukseen tätä tietoaineistoa käytetään projektin aikana?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -809,8 +910,11 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Volumen de datos</title>
+		<title lang="fi">Aineiston määrä</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Mikä on sen aineiston odotettu koko, jota aiotte tuottaa tai käyttää uudelleen?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/size/data_volume" order="6"/>
@@ -841,9 +945,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Si se trata de grandes cantidades de datos, se deben considerar los recursos financieros para la provisión de la infraestructura (ver también la sección Financiamiento).</help>
+		<help lang="fi">Jos aineistomäärät ovat suuria, infrastruktuurin tarjoamiseen tarvittavat taloudelliset resurssit on otettava huomioon (katso myös kohta &quot;Rahoitus&quot;).</help>
 		<text lang="es">¿Cuál es el tamaño real o esperado de la colección de datos?</text>
+		<text lang="fi">Mikä on tietoaineiston todellinen tai arvioitu koko?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -877,8 +985,11 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Procedencia</title>
+		<title lang="fi">Alkuperä ja provenienssi</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Mikä on aineiston alkuperä/provenienssi, olipa aineisto tuotettu tai uudelleenkäytetty?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/provenance/provenance" order="1"/>
@@ -911,9 +1022,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Tähän tekstikenttään voidaan kirjata aineiston syntyhistoria (provenienssi) ja tarvittaessa tutkimusaineiston hallinnan kannalta myös niiden fyysisten objektien provenienssi, joihin aineisto perustuu. Tekstikenttää voidaan käyttää myös aineiston jälkikäsittelyn yhdenmukaiseen määrittelyyn heti, kun tällaiset yksityiskohdat on päätetty. Tämä voi sisältää esimerkiksi aggregointivaiheita, yksikkömuunnoksia ja formaattimuunnoksia.</help>
 		<text lang="es">¿Cuál es la procedencia de los datos?</text>
+		<text lang="fi">Mikä on aineiston provenienssi?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -950,9 +1065,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">Si se reutiliza, ¿quién creó la colección de datos?</text>
+		<text lang="fi">Jos aineistoa käytetään uudelleen, kuka on luonut tietoaineiston?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -989,9 +1108,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">Si se reutiliza, ¿bajo qué dirección, PID o URL puede encontrarse la colección de datos?</text>
+		<text lang="fi">Jos aineistoa käytetään uudelleen, mistä osoitteesta, PID-tunnisteesta tai URL-osoitteesta tietoaineisto löytyy?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1023,8 +1146,11 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Utilidad de los datos</title>
+		<title lang="fi">Aineiston hyödyllisyys</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Kenelle aineistostanne voisi olla hyötyä projektinne ulkopuolella (&quot;data utility&quot;)?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/data_summary/data_utility/reuse_scenario" order="4"/>
@@ -1055,9 +1181,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Es importante establecer el rumbo fundamental en cuanto a si se permitirá o no la reutilización de los datos. Por supuesto, el potencial de uso posterior no puede ser el único criterio de decisión, pero se deben tener en cuenta los impedimentos legales, como la privacidad, los derechos de autor y los secretos comerciales. De lo contrario, considere el potencial de reutilización frente a las desventajas, p. una disminución en la disposición a participar y el esfuerzo adicional esperado de una publicación de datos.</help>
+		<help lang="fi">On tärkeää tehdä perustava päätös siitä, sallitaanko aineiston uudelleenkäyttö. Uudelleenkäyttöpotentiaali ei tietenkään voi olla ainoa päätöskriteeri, vaan myös oikeudelliset esteet, kuten yksityisyys, tekijänoikeudet ja liikesalaisuudet, on otettava huomioon. Muussa tapauksessa punnitse uudelleenkäyttöpotentiaalia haittoja vasten, esimerkiksi osallistumishalukkuuden vähenemistä ja aineiston julkaisemisesta aiheutuvaa lisätyötä.</help>
 		<text lang="es">¿Qué individuos, grupos o instituciones podrían estar interesados en reutilizar esta colección de datos?</text>
+		<text lang="fi">Mitkä henkilöt, ryhmät tai instituutiot voisivat olla kiinnostuneita käyttämään tätä tietoaineistoa uudelleen?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1081,6 +1211,7 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<title lang="fr">Données FAIR</title>
 		<title lang="it">Dati FAIR</title>
 		<title lang="es">Datos FAIR</title>
+		<title lang="fi">FAIR-aineisto</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/findable_data" order="1"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_repository" order="2"/>
@@ -1131,8 +1262,19 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Encontrabilidad</title>
+		<title lang="fi">Löydettävyys</title>
 		<help lang="es">.....</help>
+		<help lang="fi">Aineiston löydettäväksi tekeminen, mukaan lukien metatietoja koskevat järjestelyt. &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Tunnistetaanko aineisto pysyvän tunnisteen avulla?&lt;/i&gt;
+
+- &lt;i&gt;Tarjotaanko rikastettuja metatietoja aineiston löytämisen mahdollistamiseksi? Mitä metatietoja luodaan? Mitä tieteenalakohtaisia tai yleisiä standardeja noudatetaan? Jos alallanne ei ole metatietostandardeja, kuvatkaa, millaisia metatietoja luodaan ja miten.&lt;/i&gt;
+
+- &lt;i&gt;Lisätäänkö metatietoihin hakusanoja löydettävyyden ja mahdollisen uudelleenkäytön parantamiseksi?&lt;/i&gt;
+
+- &lt;i&gt;Tarjotaanko metatiedot siten, että ne voidaan haravoida ja indeksoida?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/findable_data/yesno" order="0"/>
@@ -1169,9 +1311,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Pysyvien tunnisteiden (PID) tarkoituksena on varmistaa erityisesti digitaalisten objektien, kuten verkkojulkaisujen ja tutkimusaineistojen, pysyvä viitattavuus. Kun perinteisiä hyperlinkkejä käytetään viitteinä, ne osoittavat suoraan aineiston tallennuspaikkaan. Ongelmana on, että jos tallennuspaikka muuttuu, linkki ei enää toimi. PID toimii välittäjänä, josta pyynnöt ohjataan objektin nykyiseen sijaintiin (tätä kutsutaan PID:n &quot;resolvoinniksi&quot;). PID pysyy samana, vaikka tallennuspaikka muuttuu. Siinä missä pelkkä hyperlinkki johtaisi tällöin ei-minnekään, PID:n kautta objekti on edelleen saavutettavissa. Laajasti käytetty PID-järjestelmä on DOI-järjestelmä (Digital Object Identifier), joka perustuu Handle-järjestelmään.</help>
 		<text lang="es">¿Se utilizarán identificadores persistentes (PID) para esta colección de datos?</text>
+		<text lang="fi">Käytetäänkö tälle tietoaineistolle pysyviä tunnisteita (PID)?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -1208,9 +1354,13 @@ Explique también si se trata de una colección de datos fijo almacenado en un m
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Qué sistema de identificadores persistentes se utilizará?</text>
+		<text lang="fi">Mitä pysyvien tunnisteiden järjestelmää käytetään?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1255,9 +1405,15 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Metatiedot ovat tietoa tiedosta, ja ne tallennetaan tutkimusaineiston yhteyteen. Metatiedot ovat ratkaisevia tutkimusaineiston haettavuuden kannalta, koska sopivan uudelleenkäytettävän aineiston etsiminen tutkimusaineistorepositorioista on yleensä mahdollista vain metatietojen perusteella.
+
+Suurin osa metatiedoista, kuten tekijät, otsikko ja kuvaus, on syötettävä käsin. Monet repositoriot täydentävät kuitenkin käsin syötettyjä metatietoja automaattisesti tuotetuilla metatiedoilla. Esimerkiksi aikaleima ja tallennukseen liittyvät provenienssitiedot lisätään usein automaattisesti.</help>
 		<text lang="es">¿Qué metadatos se recopilan automáticamente?</text>
+		<text lang="fi">Mitkä metatiedot kerätään automaattisesti?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1294,9 +1450,13 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Entonces, ¿qué metadatos recopila automáticamente la computadora o el software, pero deben verificarse?</help>
+		<help lang="fi">Mitkä metatiedot siis kerätään tietokoneen/ohjelmiston avulla automaattisesti, mutta on tarkistettava?</help>
 		<text lang="es">¿Qué metadatos se recopilan de forma semiautomática?</text>
+		<text lang="fi">Mitkä metatiedot kerätään puoliautomaattisesti?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1333,9 +1493,13 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Un editor de metadatos es adecuado para esto.</help>
+		<help lang="fi">Jos ei vielä tiedetä, mitkä metatiedot on määriteltävä, tähän voidaan kirjoittaa &quot;selvitettävä repositorion kanssa&quot;.</help>
 		<text lang="es">¿Qué metadatos se recopilan manualmente?</text>
+		<text lang="fi">Mitkä metatiedot kerätään käsin?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1372,9 +1536,13 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Dónde se almacenarán o archivarán los datos (incluidos los metadatos, la documentación y, si corresponde, el código de software) una vez finalizado el proyecto?</text>
+		<text lang="fi">Lisätäänkö metatietoihin hakusanoja löydettävyyden ja mahdollisen uudelleenkäytön parantamiseksi?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1411,9 +1579,13 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Haravointi tarkoittaa metatietojen automaattista kopiointia koneelta toiselle. Näin metatiedot voidaan kerätä keskitetysti koneiden välisiä metatietohakuja varten. Tarjoaako valittu repositorio rajapinnan metatietojen haravointiin, esimerkiksi OAI-PMH?</help>
 		<text lang="es">¿Se ofrecerán metadatos de tal manera que puedan ser recolectados e indexados?</text>
+		<text lang="fi">Tarjotaanko metatiedot siten, että ne voidaan haravoida ja indeksoida?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1461,8 +1633,17 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Accesibilidad: repositorio</title>
+		<title lang="fi">Saatavuus: repositorio</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Talletetaanko aineisto luotettuun repositorioon?&lt;/i&gt;
+
+- &lt;i&gt;Oletteko selvittäneet asianmukaiset järjestelyt sen repositorion kanssa, johon aineisto talletetaan?&lt;/i&gt;
+
+- &lt;i&gt;Varmistaako repositorio, että aineistolle annetaan tunniste? Resolvoiko repositorio tunnisteen digitaaliseen objektiin?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_repository/repository_identifier" order="1"/>
@@ -1496,9 +1677,13 @@ La plupart des métadonnées doivent être saisies manuellement, telles que les 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Dónde se almacenarán o archivarán los datos (incluidos los metadatos, la documentación y, si corresponde, el código de software) una vez finalizado el proyecto?</text>
+		<text lang="fi">Mihin aineisto (mukaan lukien metatiedot, dokumentaatio ja tarvittaessa olennainen koodi) tallennetaan tai arkistoidaan projektin päättymisen jälkeen?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1561,9 +1746,26 @@ D'après le &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportuni
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Jos tietoaineisto arkistoidaan useaan paikkaan, voit vastata tähän kysymykseen kyllä, jos tämä toteutuu vähintään yhdessä näistä paikoista.
+
+&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf&quot; target=_blank&gt;Annotated Model Grant Agreement&lt;/a&gt; -asiakirjan mukaan luotettuja repositorioita ovat:
+
+&lt;ul&gt;&lt;li&gt;Sertifioidut repositoriot (esim. CoreTrustSeal, nestor Seal DIN31644, ISO16363) tai tieteenalakohtaiset ja alakohtaiset repositoriot, joita tutkimusyhteisöt yleisesti käyttävät ja suosittelevat. Tällaisten repositorioiden tulisi olla kansainvälisesti tunnustettuja.&lt;/li&gt;
+&lt;li&gt;Yleiskäyttöiset repositoriot tai institutionaaliset repositoriot, joilla on luotettujen repositorioiden olennaiset ominaisuudet, eli ne:
+
+&lt;ul&gt;&lt;li&gt;osoittavat organisatorista, teknistä ja menettelyllistä laatua koskevia erityispiirteitä, kuten palveluja, mekanismeja ja/tai järjestelyjä, joiden tarkoituksena on turvata sisällön eheys ja aitous ja siten helpottaa sen lyhyen ja pitkän aikavälin käyttöä ja uudelleenkäyttöä. Luotetuilla repositorioilla on erityisiä käytäntöjä ja ne tarjoavat verkossa selkeää tietoa politiikoistaan, joissa määritellään niiden palvelut (esim. vastaanotto, pääsy, sisällön turvallisuus, palvelun pitkäaikainen kestävyys mukaan lukien rahoitus jne.).&lt;/li&gt;
+
+&lt;li&gt;tarjoavat laajan, tasapuolisen ja ihannetapauksessa avoimen pääsyn sisältöihin käyttöhetkellä maksutta soveltuvin osin sekä noudattavat sovellettavia oikeudellisia ja eettisiä rajoituksia. Ne antavat sisällöille pysyvät yksilölliset tunnisteet (esim. DOI:t, handlet jne.), jotta sisällöt (julkaisut, aineisto ja muut tutkimustuotokset) voidaan yksiselitteisesti viitata ja siten siteerata. Ne varmistavat, että sisältöjen mukana on riittävän yksityiskohtaiset ja laadukkaat metatiedot löydettävyyden, uudelleenkäytön ja siteerauksen mahdollistamiseksi sekä tiedot provenienssista ja lisensoinnista; metatiedot ovat koneellisesti käsiteltäviä ja standardoituja (esim. Dublin Core, DataCite jne.), mieluiten käyttäen yleisiä ei-proprietaarisia formaatteja ja noudattaen soveltuvin osin repositorion palveleman yhteisön standardeja.&lt;/li&gt;
+
+&lt;li&gt;edistävät talletetun materiaalin keskipitkän ja pitkän aikavälin säilyttämistä. Niillä on mekanismeja tai järjestelyjä asiantuntijakuratoimiseen ja laadunvarmistukseen tietoaineistojen ja metatietojen tarkkuuden ja eheyden varmistamiseksi sekä menettelyjä yhteydenpitoon tallettajien kanssa, jos ongelmia havaitaan. Ne täyttävät yleisesti hyväksytyt kansainväliset ja kansalliset turvallisuuskriteerit luvattoman pääsyn ja sisällön luvattoman luovuttamisen estämiseksi, ja niillä on eri turvallisuustasoja talletettavan aineiston arkaluonteisuuden mukaan yksityisyyden ja luottamuksellisuuden säilyttämiseksi.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;
+
+Euroopan komissio laskee myös moniorganisatoriset repositoriot Zenodon ja Figsharen luotettuihin repositorioihin.</help>
 		<text lang="es">¿Se depositarán los datos en un repositorio de confianza?</text>
+		<text lang="fi">Talletetaanko aineisto luotettuun repositorioon?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1602,9 +1804,13 @@ D'après le &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportuni
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Puede el repositorio resolver el identificador a un objeto digital?</text>
+		<text lang="fi">Resolvoiko repositorio tunnisteen digitaaliseen objektiin?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -1641,9 +1847,13 @@ D'après le &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportuni
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Laadunvarmistusta ja aineiston kuratointia koskevien kysymysten lisäksi on myös keskusteltava siitä, annetaanko aineistolle pysyvä tunniste.</help>
 		<text lang="es">¿Ha explorado arreglos apropiados con el repositorio identificado?</text>
+		<text lang="fi">Oletteko selvittäneet asianmukaiset järjestelyt valitun repositorion kanssa?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1702,8 +1912,20 @@ La question &lt;i&gt;Est-il nécessaire d'avoir un comité d'accès aux données
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Accesibilidad: datos</title>
+		<title lang="fi">Saatavuus: aineisto</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Asetetaanko kaikki aineistot avoimesti saataville? Jos tiettyjä tietoaineistoja ei voida jakaa (tai ne on jaettava rajoitetun pääsyn ehdoilla), selittäkää miksi ja erottakaa selvästi oikeudelliset ja sopimusperusteiset syyt tarkoituksellisista rajoituksista. Huomatkaa, että usean edunsaajan projekteissa myös tietyt edunsaajat voivat pitää aineistonsa suljettuina, jos aineiston avaaminen olisi vastoin heidän oikeutettuja etujaan tai muita Grant Agreement -sopimuksen mukaisia rajoitteita.&lt;/i&gt;
+- &lt;i&gt;Jos sovelletaan embargoa, jotta julkaisemiseen tai immateriaalioikeuksien suojaamiseen (esim. patentit) jää aikaa, täsmentäkää miksi ja kuinka kauan embargo on voimassa, pitäen mielessä, että tutkimusaineisto tulisi asettaa saataville mahdollisimman pian.&lt;/i&gt;
+
+- &lt;i&gt;Onko aineisto saatavilla maksuttoman ja standardoidun käyttöprotokollan kautta?&lt;/i&gt;
+
+- &lt;i&gt;Jos käyttöön liittyy rajoituksia, miten pääsy aineistoon järjestetään sekä projektin aikana että sen päättymisen jälkeen? Miten aineistoon pääsevän henkilön henkilöllisyys varmistetaan?&lt;/i&gt;
+
+Kysymys &lt;i&gt;Tarvitaanko aineiston käyttöoikeustoimikuntaa (esim. henkilökohtaisen/arkaluonteisen aineiston käyttöpyyntöjen arviointiin/hyväksymiseen)?&lt;/i&gt; on seuraavalla sivulla.</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_data/sharing_yesno" order="1"/>
@@ -1745,9 +1967,15 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf&quot; target=_blank&gt;Horizon Europe Programme Guide&lt;/a&gt; -oppaan mukaan:
+
+Horizon Europe -ohjelman edunsaajien on varmistettava projekteissaan tuotetun tutkimusaineiston avoin saatavuus periaatteella &quot;niin avointa kuin mahdollista ja niin suljettua kuin välttämätöntä&quot;. Tämä tarkoittaa, että aineisto on lähtökohtaisesti avointa, elleivät edunsaajat päätä rajoittaa joidenkin tai kaikkien tutkimusaineistojensa saatavuutta oikeutetuista syistä.</help>
 		<text lang="es">¿Se publicará o compartirá esta colección de datos?</text>
+		<text lang="fi">Julkaistaanko tai jaetaanko tämä tietoaineisto?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -1786,9 +2014,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">Si no, por favor explique por qué no. Por favor diferencie entre razones legales y contractuales y restricciones voluntarias.</text>
+		<text lang="fi">Jos ei, selitä miksi. Erottele oikeudelliset ja sopimukselliset syyt sekä vapaaehtoiset rajoitukset.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1827,9 +2059,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Habrá un período de embargo antes de que los datos estén disponibles?</text>
+		<text lang="fi">Tuleeko aineistolle asettaa embargoaika ennen sen saataville asettamista?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1868,9 +2104,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Las opciones se refieren a las licencias de la familia &lt;a href=&quot;https://creativecommons.org/licenses/?lang=es&quot; target=&quot;_blank&quot;&gt;Creative Commons&lt;/a&gt;.</help>
+		<help lang="fi">Vaihtoehdot viittaavat &lt;a href=&quot;https://creativecommons.org/licenses/?lang=en&quot; target=&quot;_blank&quot;&gt;Creative Commons -lisensseihin&lt;/a&gt;. Tekstikenttää voidaan käyttää lisenssin kuvaamiseen tai myös CC-lisenssin kohdalla sen täsmälliseen määrittelyyn, esimerkiksi &quot;CC BY 4.0 International&quot;.</help>
 		<text lang="es">En caso afirmativo, ¿bajo qué términos de uso o licencia se publicará o compartirá la(s) coleccion(es) de datos?</text>
+		<text lang="fi">Jos kyllä, millä käyttöehdoilla tai lisenssillä tietoaineisto julkaistaan tai jaetaan?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1909,9 +2149,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">Si hay alguna restricción sobre la reutilización de esta colección de datos, explique por qué.</text>
+		<text lang="fi">Jos tämän tietoaineiston uudelleenkäytölle on rajoituksia, selitä miksi.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1948,9 +2192,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Cómo se determinará la identidad de la(s) persona(s) que acceda(n) a los datos?</text>
+		<text lang="fi">Miten aineistoon pääsevän henkilön henkilöllisyys varmistetaan?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1984,8 +2232,11 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<help lang="it">.....</help>
 		<verbose_name lang="it"/>
 		<title lang="es">Accesibilidad: comité de acceso a datos</title>
+		<title lang="fi">Saatavuus: aineiston käyttöoikeustoimikunta</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Tarvitaanko aineiston käyttöoikeustoimikuntaa (esim. henkilökohtaisen/arkaluonteisen aineiston käyttöpyyntöjen arviointiin/hyväksymiseen)?&lt;/i&gt;</help>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/access_committee/access_committee" order="7"/>
@@ -2016,9 +2267,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Se necesita un comité de acceso a datos para manejar las solicitudes de acceso a los datos publicados del proyecto?</text>
+		<text lang="fi">Tarvitaanko aineiston käyttöoikeustoimikuntaa käsittelemään projektin julkaistun aineiston käyttöpyyntöjä?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -2067,8 +2322,17 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Accesibilidad: metadatos</title>
+		<title lang="fi">Saatavuus: metatiedot</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Asetetaanko metatiedot avoimesti saataville ja lisensoidaanko ne public domain -luovutuksella CC0, Grant Agreement -sopimuksen mukaisesti? Jos ei, selittäkää miksi. Sisältävätkö metatiedot tietoa, joka mahdollistaa käyttäjälle pääsyn aineistoon?&lt;/i&gt;
+
+- &lt;i&gt;Kuinka kauan aineisto pysyy saatavilla ja löydettävissä? Taataanko metatietojen saatavuus sen jälkeen, kun aineisto ei enää ole saatavilla?&lt;/i&gt;
+
+- &lt;i&gt;Sisällytetäänkö dokumentaatio tai viite ohjelmistosta, jota tarvitaan aineiston avaamiseen tai lukemiseen? Onko mahdollista sisällyttää asiaankuuluva ohjelmisto (esim. avoimena lähdekoodina)?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_metadata/access_conditions_metadata" order="1"/>
@@ -2103,9 +2367,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Los metadatos serán públicamente disponibles bajo una dedicación de dominio público CC0, conformemente con el acuerdo de subvención? De no ser así, sírvanse aclarar por qué.</text>
+		<text lang="fi">Asetetaanko metatiedot avoimesti saataville ja lisensoidaanko ne public domain -luovutuksella CC0, Grant Agreement -sopimuksen mukaisesti? Jos ei, selittäkää miksi.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2142,9 +2410,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Tämä on tärkeää, jos pääsy aineistoon on rajoitettua mutta ei kokonaan poissuljettua, esimerkiksi jos siihen liittyy ehtoja tai se edellyttää erityistä ohjelmistoa.</help>
 		<text lang="es">¿Conseguirán los metadatos información para que el usuario pueda acceder a los datos?</text>
+		<text lang="fi">Sisältävätkö metatiedot tietoa, jonka avulla käyttäjä pääsee aineistoon?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2181,9 +2453,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Hyvän käytännön ja sopimusehtojen mukaan aineiston tulisi pysyä saatavilla vähintään 10 vuotta.</help>
 		<text lang="es">¿Cuánto tiempo se pretende que los datos sigan siendo reutilizables?</text>
+		<text lang="fi">Kuinka kauan aineiston on tarkoitus pysyä uudelleenkäytettävänä?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2220,9 +2496,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Monet tutkimusaineistorepositoriot mahdollistavat tämän, yleensä yhdessä niin sanotun &quot;tombstone&quot;-verkkosivun kanssa, joka kertoo, ettei itse tutkimusaineisto ole enää saatavilla.</help>
 		<text lang="es">¿Se garantizará que los metadatos estén disponibles después de que los datos dejen de estar disponibles?</text>
+		<text lang="fi">Taataanko metatietojen saatavuus sen jälkeen, kun aineisto ei enää ole saatavilla?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -2259,9 +2539,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Jos aineistonhallintasuunnitelma viedään siihen liittyvällä näkymällä, tämän kysymyksen toisen osan (ohjelmiston tarjoaminen) kohdalle lisätään automaattisesti viittaus osioon &lt;i&gt;Muut tutkimustuotokset&lt;/i&gt;.</help>
 		<text lang="es">¿Se necesita documentación sobre el software relevante para usar los datos?</text>
+		<text lang="fi">Tarvitaanko aineiston käyttöä varten dokumentaatiota asiaankuuluvasta ohjelmistosta?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2309,8 +2593,17 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Interoperabilidad</title>
+		<title lang="fi">Yhteentoimivuus</title>
 		<help lang="es">.....</help>
+		<help lang="fi">Aineiston yhteentoimivaksi tekeminen. &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Mitä aineisto- ja metatietosanastoja, standardeja, formaatteja tai menetelmiä noudatatte, jotta aineistonne on yhteentoimivaa ja mahdollistaa aineiston vaihdon ja uudelleenkäytön tieteenalojen sisällä ja välillä? Noudatatteko yhteisön hyväksymiä yhteentoimivuuden parhaita käytäntöjä? Mitä?&lt;/i&gt;
+
+- &lt;i&gt;Jos on väistämätöntä käyttää harvinaisia ontologioita tai sanastoja tai tuottaa projektikohtaisia ontologioita tai sanastoja, tarjoatteko mappauksia yleisemmin käytettyihin ontologioihin? Julkaisetteko tuotetut ontologiat tai sanastot avoimesti, jotta niitä voidaan käyttää uudelleen, jalostaa tai laajentaa?&lt;/i&gt;
+
+- &lt;i&gt;Sisältääkö aineistonne kvalifioituja viittauksia muuhun aineistoon (esim. projektinne muihin aineistoihin tai aiempien tutkimusten tietoaineistoihin)?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/interoperable_data/interoperability_standards" order="1"/>
@@ -2345,9 +2638,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Qué estándares, ontologías, clasificaciones, etc. se utilizan para describir los datos y la información de contexto?</text>
+		<text lang="fi">Mitä standardeja, ontologioita, luokituksia jne. käytetään aineiston ja kontekstitietojen kuvaamiseen?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2386,9 +2683,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Esta colección de datos es interoperable, es decir, permite el intercambio y la reutilización de datos entre investigadores, instituciones, organizaciones, países, etc.?</text>
+		<text lang="fi">Onko tämä tietoaineisto yhteentoimiva eli mahdollistaako se aineiston vaihdon ja uudelleenkäytön tutkijoiden, instituutioiden, organisaatioiden, maiden jne. välillä?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2427,9 +2728,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">En caso de que sea inevitable que utilice ontologías o vocabularios poco comunes o que genere específicos del proyecto, ¿proporcionará asignaciones a ontologías más utilizadas?</text>
+		<text lang="fi">Jos on väistämätöntä käyttää harvinaisia ontologioita tai sanastoja tai tuottaa projektikohtaisia ontologioita tai sanastoja, tarjoatteko mappauksia yleisemmin käytettyihin ontologioihin?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2468,9 +2773,13 @@ Les bénéficiaires d'Horizon Europe doivent garantir un accès ouvert aux donn�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">En caso afirmativo, ¿publicarán abiertamente las ontologías o vocabularios generados para permitir la reutilización, el refinado o la ampliación?</text>
+		<text lang="fi">Jos kyllä, julkaisetteko tuotetut ontologiat tai sanastot avoimesti, jotta niitä voidaan käyttää uudelleen, jalostaa tai laajentaa?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2511,9 +2820,15 @@ Une référence qualifiée est une référence croisée qui explique son intenti
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Horizon Europe Data Management Plan Template&lt;/a&gt; -mallin mukaan:
+
+Kvalifioitu viittaus on ristiviittaus, joka selittää tarkoituksensa. Esimerkiksi &quot;X on Y:n säätelijä&quot; on paljon kvalifioidumpi viittaus kuin &quot;X liittyy Y:hyn&quot; tai &quot;X katso myös Y&quot;. Tavoitteena on siksi luoda mahdollisimman paljon merkityksellisiä linkkejä (meta)dataresurssien välille ja rikastaa aineistoa koskevaa kontekstuaalista tietoa. (&lt;a href=&quot;https://www.go-fair.org/fair-principles/i3-metadata-include-qualified-references-metadata/&quot; target=_blank&gt;Lähde&lt;/a&gt;)</help>
 		<text lang="es">¿Incluirán sus datos referencias cualificadas a otros datos (por ejemplo, otros datos de su proyecto o conjuntos de datos de investigaciones anteriores)?</text>
+		<text lang="fi">Sisältääkö aineistonne kvalifioituja viittauksia muuhun aineistoon (esim. projektinne muihin aineistoihin tai aiempien tutkimusten tietoaineistoihin)?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2584,8 +2899,24 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Reutilizabilidad</title>
+		<title lang="fi">Uudelleenkäytettävyys</title>
 		<help lang="es">.....</help>
+		<help lang="fi">Aineiston uudelleenkäytön lisääminen. &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Miten tarjoatte dokumentaation, jota tarvitaan aineistoanalyysin validointiin ja aineiston uudelleenkäytön helpottamiseen (esim. readme-tiedostot, joissa on tietoa menetelmistä, koodikirjoista, aineiston puhdistuksesta, analyyseistä, muuttujien määritelmistä, mittayksiköistä jne.)?&lt;/i&gt;
+- &lt;i&gt;Dokumentoidaanko aineiston provenienssi perusteellisesti asianmukaisten standardien avulla?&lt;/i&gt;
+
+- &lt;i&gt;Kuvatkaa kaikki asiaankuuluvat aineiston laadunvarmistusprosessit.&lt;/i&gt;
+
+Jos tämä aineistonhallintasuunnitelma tuotetaan siihen liittyvällä näkymällä, seuraavien lisäkysymysten kohdalle
+
+- &lt;i&gt;Asetetaanko aineistonne vapaasti saataville public domain -alueelle mahdollisimman laajan uudelleenkäytön mahdollistamiseksi? Lisensoidaanko aineistonne vakiomuotoisilla uudelleenkäyttölisensseillä Grant Agreement -sopimuksessa asetettujen velvoitteiden mukaisesti?&lt;/i&gt;
+
+- &lt;i&gt;Onko projektissa tuotettu aineisto kolmansien osapuolten käytettävissä erityisesti projektin päättymisen jälkeen?&lt;/i&gt;
+
+lisätään automaattisesti viittaus osioon &quot;FAIR-aineisto / Saatavuus: aineisto&quot;.</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/reusable_data/documentation" order="1"/>
@@ -2619,9 +2950,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Kirjaa tähän kenttään ne aineistodokumentaation osat, jotka ovat saatavilla tietoaineiston mukana eivätkä pelkästään pyynnöstä myöhemmin hyvän tieteellisen käytännön yhteydessä.</help>
 		<text lang="es">¿Qué componentes de la documentación de los datos están disponibles junto a la colección de datos?</text>
+		<text lang="fi">Mitkä aineistodokumentaation osat ovat saatavilla tietoaineiston mukana?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2660,9 +2995,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Se documentará a fondo la procedencia de los datos utilizando las normas adecuadas?</text>
+		<text lang="fi">Dokumentoidaanko aineiston provenienssi perusteellisesti asianmukaisten standardien avulla?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2699,9 +3038,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Dónde está suministrada la documentación de los datos?</text>
+		<text lang="fi">Missä aineistodokumentaatio tarjotaan?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2738,9 +3081,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Algunos ejemplos son los controles de integridad, la reconciliación de datos, los procedimientos de muestreo. Estas medidas sirven para identificar errores de documentación y anomalías aritméticas.</help>
+		<help lang="fi">Esimerkkejä ovat täydellisyyden tarkistukset, aineiston täsmäytys ja otantamenettelyt. Näiden toimenpiteiden tarkoituksena on tunnistaa dokumentointivirheitä ja laskennallisia poikkeamia.</help>
 		<text lang="es">¿Qué medidas de control de calidad se toman para esta colección de datos?</text>
+		<text lang="fi">Mitä laadunvarmistustoimia tälle tietoaineistolle tehdään?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2764,6 +3111,7 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<title lang="fr">Autres résultats de recherche</title>
 		<title lang="it">Altri risultati della ricerca</title>
 		<title lang="es">Otros resultados de la investigación</title>
+		<title lang="fi">Muut tutkimustuotokset</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/other_research_outputs/other_research_outputs" order="1"/>
 		</pages>
@@ -2796,8 +3144,14 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<help lang="it">.....</help>
 		<verbose_name lang="it"/>
 		<title lang="es">Otros resultados de la investigación</title>
+		<title lang="fi">Muut tutkimustuotokset</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Aineiston hallinnan lisäksi edunsaajien tulisi myös harkita ja suunnitella muiden tutkimustuotosten hallintaa, joita voidaan tuottaa tai käyttää uudelleen projektien aikana. Tällaiset tuotokset voivat olla joko digitaalisia (esim. ohjelmistoja, työnkulkuja, protokollia, malleja jne.) tai fyysisiä (esim. uusia materiaaleja, vasta-aineita, reagensseja, näytteitä jne.).&lt;/i&gt;
+- &lt;i&gt;Edunsaajien tulisi harkita, mitkä yllä olevista FAIR-aineistoa koskevista kysymyksistä soveltuvat muiden tutkimustuotosten hallintaan, ja pyrkiä antamaan riittävästi yksityiskohtia siitä, miten tutkimustuotokset hallitaan ja jaetaan tai asetetaan uudelleenkäytettäviksi FAIR-periaatteiden mukaisesti.&lt;/i&gt;</help>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/other_research_outputs/other_research_outputs/what" order="1"/>
@@ -2829,9 +3183,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Tällaiset tuotokset voivat olla joko digitaalisia (esim. ohjelmistoja, työnkulkuja, protokollia, malleja jne.) tai fyysisiä (esim. uusia materiaaleja, vasta-aineita, reagensseja, näytteitä jne.).</help>
 		<text lang="es">¿Qué otros resultados de investigación se generan o se reutilizan en el proyecto?</text>
+		<text lang="fi">Mitä muita tutkimustuotoksia projektissanne tuotetaan tai käytetään uudelleen?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2870,9 +3228,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Edunsaajien tulisi harkita, mitkä yllä olevista FAIR-aineistoa koskevista kysymyksistä soveltuvat muiden tutkimustuotosten hallintaan, ja pyrkiä antamaan riittävästi yksityiskohtia siitä, miten tutkimustuotokset hallitaan ja jaetaan tai asetetaan uudelleenkäytettäviksi FAIR-periaatteiden mukaisesti.</help>
 		<text lang="es">¿Qué aspectos de gestión (principios FAIR; costes y recursos; seguridad, aspectos jurídicos y éticos) se aplicarán también a los demás productos de investigación mencionados en el proyecto?</text>
+		<text lang="fi">Mitä hallinnan näkökohtia (FAIR-periaatteet; kustannukset ja resurssit; turvallisuus, oikeudelliset ja eettiset näkökohdat) sovelletaan myös edellä mainittuihin muihin tutkimustuotoksiin projektissanne?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2894,6 +3256,7 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<title lang="fr">Allocation des ressources</title>
 		<title lang="it">Allocazione delle risorse</title>
 		<title lang="es">Allocación de los recursos</title>
+		<title lang="fi">Resurssien kohdentaminen</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/resources/costs" order="1"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/resources/responsible" order="2"/>
@@ -2932,8 +3295,15 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<help lang="it">.....</help>
 		<verbose_name lang="it"/>
 		<title lang="es">Costos</title>
+		<title lang="fi">Kustannukset</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Mitä kustannuksia aiheutuu siitä, että aineisto tai muut tutkimustuotokset tehdään FAIR-periaatteiden mukaisiksi projektissanne (esim. varastointiin, arkistointiin, uudelleenkäyttöön, turvallisuuteen jne. liittyvät suorat ja epäsuorat kustannukset)?&lt;/i&gt;
+
+- &lt;i&gt;Miten nämä kustannukset katetaan? Huomatkaa, että tutkimusaineiston/-tuotosten hallintaan liittyvät kustannukset ovat tukikelpoisia osana Horizon Europe -avustusta (jos ne ovat Grant Agreement -ehtojen mukaisia).&lt;/i&gt;</help>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/resources/costs/metadata_personnel" order="1"/>
@@ -2972,9 +3342,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime el esfuerzo en meses-persona.</help>
+		<help lang="fi">Arvioi työmäärä henkilökuukausina.</help>
 		<text lang="es">¿Cuáles son los costos de personal asociados con la documentación de los datos y la creación de metadatos en el proyecto?</text>
+		<text lang="fi">Mitkä ovat projektissa aineistodokumentaatioon ja metatietojen luomiseen liittyvät henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>range</widget_type>
@@ -3011,9 +3385,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime los costos en **Euro**.</help>
+		<help lang="fi">Arvioi kustannukset **euroina**.</help>
 		<text lang="es">¿Cuál es la cantidad de costos que no son de personal para la documentación de los datos y la creación de metadatos en el proyecto?</text>
+		<text lang="fi">Kuinka suuret ovat projektissa aineistodokumentaatioon sekä metatietojen ja kontekstitietojen luomiseen liittyvät muut kuin henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -3050,9 +3428,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime el esfuerzo en meses-persona.</help>
+		<help lang="fi">Arvioi työmäärä henkilökuukausina.</help>
 		<text lang="es">¿Cuáles son los costos de personal asociados con el uso de identificadores persistentes en el proyecto?</text>
+		<text lang="fi">Mitkä ovat projektissa pysyvien tunnisteiden käyttöön liittyvät henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>range</widget_type>
@@ -3089,9 +3471,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime los costos en **Euro**.</help>
+		<help lang="fi">Arvioi kustannukset **euroina**.</help>
 		<text lang="es">¿Cuál es la cantidad de costos que no son de personal asociados con los identificadores persistentes en el proyecto?</text>
+		<text lang="fi">Kuinka suuret ovat projektissa pysyviin tunnisteisiin liittyvät muut kuin henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -3128,9 +3514,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime el esfuerzo en meses-persona.</help>
+		<help lang="fi">Arvioi työmäärä henkilökuukausina.</help>
 		<text lang="es">¿Cuáles son los costos de personal asociados con la preservación a largo plazo para el proyecto?</text>
+		<text lang="fi">Mitkä ovat projektin pitkäaikaissäilytykseen liittyvät henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>range</widget_type>
@@ -3167,9 +3557,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime los costos en **Euro**.</help>
+		<help lang="fi">Arvioi kustannukset **euroina**.</help>
 		<text lang="es">¿Cuál es el monto de los costos que no son de personal con respecto a la preservación a largo plazo para el proyecto?</text>
+		<text lang="fi">Mikä on projektin pitkäaikaissäilytykseen liittyvien muiden kuin henkilöstökustannusten määrä?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -3206,9 +3600,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime el esfuerzo en meses-persona.</help>
+		<help lang="fi">Arvioi työmäärä henkilökuukausina.</help>
 		<text lang="es">¿Cuáles son los costos de personal para la gestión de los otros resultados de investigación en el proyecto?</text>
+		<text lang="fi">Mitkä ovat projektissa muihin tutkimustuotoksiin liittyvät henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>range</widget_type>
@@ -3245,9 +3643,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Estime los costos en **Euro**.</help>
+		<help lang="fi">Arvioi kustannukset **euroina**.</help>
 		<text lang="es">¿Cuál es la cantidad de costos que no son de personal para la gestión de los otros resultados de investigación en el proyecto?</text>
+		<text lang="fi">Kuinka suuret ovat projektissa muihin tutkimustuotoksiin liittyvät muut kuin henkilöstökustannukset?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -3284,9 +3686,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Cómo se cubrirán los costos de gestión de datos del proyecto?</text>
+		<text lang="fi">Miten projektin aineistonhallinnan kustannukset katetaan?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -3318,8 +3724,11 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Responsabilidad</title>
+		<title lang="fi">Vastuu</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Kuka vastaa aineistonhallinnasta projektissanne?&lt;/i&gt;</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/resources/responsible/responsible_storage" order="1"/>
@@ -3352,9 +3761,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Esta pregunta se refiere a las copias de seguridad mientras se trabaja con los datos. Las cuestiones de conservación a largo plazo se abordarán en la sección respectiva.</help>
+		<help lang="fi">Tämä kysymys koskee varmuuskopioita silloin, kun aineistoa työstetään. Pitkäaikaissäilytykseen liittyvät kysymykset käsitellään vastaavassa osiossa.</help>
 		<text lang="es">¿Quién es el responsable de las copias de seguridad?</text>
+		<text lang="fi">Kuka vastaa varmuuskopioista?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -3393,9 +3806,13 @@ une référence à la rubrique « Données FAIR / Accessibilité : données�
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Quién es responsable de documentar los metadatos y la información de contexto y de verificar si son correctos y completos?</text>
+		<text lang="fi">Kuka vastaa aineistodokumentaatiosta ja sen tarkistamisesta, että metatiedot ja aineistodokumentaatio ovat oikein ja täydellisiä?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -3446,9 +3863,13 @@ recherche, et lorsque c'est le cas, elle reste limitée à certains formats. L'a
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Pelkkään aineiston säilyttämiseen (bitstream preservation) verrattuna kuratointi on tärkeä tehtävä pitkäaikaisarkistoinnissa. Pysyvien tunnisteiden ylläpito on osa kuratointia. Pysyvien tunnisteiden toimimisen edellytys on, että niitä ja niiden viittaamia objekteja ylläpidetään jatkuvasti ja luotettavasti. Tämä tarkoittaa esimerkiksi sitä, että jos objektin sijainti muuttuu, tieto päivitetään. Kun aineisto tallennetaan datakeskukseen tai repositorioon, datakeskus/repositorio yleensä huolehtii näistä tehtävistä. Vastuiden tulisi kuitenkin varmuuden vuoksi olla selvästi määritelty.</help>
 		<text lang="es">¿Quién es responsable de la curación de datos una vez que el proyecto haya terminado?</text>
+		<text lang="fi">Kuka vastaa aineiston kuratoinnista projektin päätyttyä?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -3488,8 +3909,13 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Conservación</title>
+		<title lang="fi">Säilytys</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Miten pitkäaikaissäilytys varmistetaan? Käsitelkää tähän tarvittavat resurssit (kustannukset ja mahdollinen arvo)&lt;/i&gt;
+
+Jos tämä aineistonhallintasuunnitelma tuotetaan siihen liittyvällä näkymällä, aiheesta &lt;i&gt;kustannukset&lt;/i&gt; lisätään automaattisesti viittaus osioon &quot;Resurssien kohdentaminen / Kustannukset&quot; ja aiheesta &lt;i&gt;mahdollinen arvo&lt;/i&gt; osioon &quot;Aineiston yhteenveto / Aineiston hyödyllisyys&quot;.</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/resources/preservation/preservation_duration" order="3"/>
@@ -3520,9 +3946,13 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Cuánto tiempo se almacenarán los datos?</text>
+		<text lang="fi">Kuinka kauan aineistoa säilytetään?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -3554,8 +3984,11 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<help lang="it">.....</help>
 		<verbose_name lang="it"/>
 		<title lang="es">Selección</title>
+		<title lang="fi">Valinta</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;kuka päättää ja miten, mitä aineistoa säilytetään ja kuinka kauan&lt;/i&gt;</help>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/resources/selection/preservation__criteria" order="4"/>
@@ -3587,9 +4020,13 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Ejemplos: los datos constituyen la base para una publicación, para su reutilización, condiciones legales o contractuales, documentación (social o políticamente relevante)</help>
+		<help lang="fi">Esimerkkejä: tekstijulkaisun perusta, uudelleenkäyttöpotentiaali; oikeudelliset tai sopimukseen perustuvat ehdot; yhteiskunnallinen tai poliittinen merkittävyys; aineiston tuottamisen kustannukset ja vaiva; aineiston ainutlaatuisuus.</help>
 		<text lang="es">¿Cuáles son los criterios/reglas para la selección de los datos a archivar (después del final del proyecto)?</text>
+		<text lang="fi">Mitkä ovat kriteerit tai säännöt arkistoitavan aineiston valinnalle (projektin päättymisen jälkeen)?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -3626,9 +4063,13 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Quién selecciona los datos a archivar?</text>
+		<text lang="fi">Kuka valitsee arkistoitavan aineiston?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -3652,6 +4093,7 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<title lang="fr">Sécurité des données</title>
 		<title lang="it">Sicurezza dei dati</title>
 		<title lang="es">Seguridad de los datos</title>
+		<title lang="fi">Aineiston turvallisuus</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/security/data_security" order="1"/>
 		</pages>
@@ -3681,8 +4123,13 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Medidas de seguridad</title>
+		<title lang="fi">Turvatoimet</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Mitä aineistoturvallisuutta koskevia järjestelyjä on tai tulee olemaan käytössä (mukaan lukien aineiston palautus sekä arkaluonteisen aineiston turvallinen tallennus/arkistointi ja siirto)?&lt;/i&gt;
+
+Jos tämä aineistonhallintasuunnitelma tuotetaan siihen liittyvällä näkymällä, lisäkysymyksen &lt;i&gt;Tallennetaanko aineisto turvallisesti luotettuihin repositorioihin pitkäaikaissäilytystä ja kuratointia varten?&lt;/i&gt; kohdalle lisätään automaattisesti viittaus osioon &quot;FAIR-aineisto / Saatavuus: repositorio&quot;.</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/security/data_security/security_measures" order="1"/>
@@ -3713,9 +4160,13 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Qué medidas o disposiciones existen para garantizar la seguridad de los datos (por ejemplo, protección contra el acceso no autorizado, recuperación de datos, transferencia de datos confidenciales)?</text>
+		<text lang="fi">Mitä toimia tai järjestelyjä on käytössä aineiston tietoturvan varmistamiseksi (esim. suojaus luvattomalta pääsyltä, aineiston palautus, arkaluonteisen aineiston siirto)?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -3739,6 +4190,7 @@ Si ce plan de gestion des données est généré à l'aide de la vue associée, 
 		<title lang="fr">Éthique</title>
 		<title lang="it">Etica</title>
 		<title lang="es">Ética</title>
+		<title lang="fi">Etiikka</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/personal_data" order="1"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/sensitive-data-other" order="2"/>
@@ -3778,6 +4230,7 @@ Auf diese beiden Fragen beziehen sich alle Detailfragen bis zum Ende des Abschni
 		<help lang="it">.....</help>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Información personal</title>
+		<title lang="fi">Henkilötiedot</title>
 		<help lang="es">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Preguntas originales:&lt;/a&gt;
 
 - &lt;i&gt;Are there, or could there be, any ethics or legal issues that can have an impact on data sharing? These can also be discussed in the context of the ethics review. If relevant, include references to ethics deliverables and ethics chapter in the Description of the Action (DoA).&lt;/i&gt;
@@ -3785,7 +4238,15 @@ Auf diese beiden Fragen beziehen sich alle Detailfragen bis zum Ende des Abschni
 - &lt;i&gt;Will informed consent for data sharing and long term preservation be included in questionnaires dealing with personal data?&lt;/i&gt;
 
 A estas dos preguntas se refieren todas las preguntas detalladas hasta el final de la sección &quot;Ética&quot;.</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäiset kysymykset:&lt;/a&gt;
+
+- &lt;i&gt;Onko olemassa tai voisiko olla eettisiä tai oikeudellisia kysymyksiä, jotka vaikuttavat aineiston jakamiseen? Näitä voidaan käsitellä myös eettisen arvioinnin yhteydessä. Tarvittaessa sisällyttäkää viittauksia eettisiin deliverable-tuotoksiin ja Description of the Action (DoA) -asiakirjan etiikkalukuun.&lt;/i&gt;
+
+- &lt;i&gt;Sisällytetäänkö henkilötietoja käsitteleviin kyselyihin tietoon perustuva suostumus aineiston jakamiseen ja pitkäaikaissäilytykseen?&lt;/i&gt;
+
+Kaikki yksityiskohtaiset kysymykset &quot;Etiikka&quot;-osion loppuun saakka liittyvät näihin kahteen kysymykseen.</help>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/personal_data/yesno" order="1"/>
@@ -3821,9 +4282,13 @@ A estas dos preguntas se refieren todas las preguntas detalladas hasta el final 
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Henkilötietojen käsittelystä säädetään laissa. EU:n laajuinen yhdenmukainen soveltaminen perustuu &lt;a href=&quot;https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32016R0679&quot; target=&quot;_blank&quot;&gt;EU:n yleiseen tietosuoja-asetukseen (GDPR)&lt;/a&gt;. Se jättää liikkumavaraa kansalliselle tasolle. Saksassa tätä sääntelyliikkumavaraa on käytetty &lt;a href=&quot;http://www.gesetze-im-internet.de/bdsg_2018/&quot; target=&quot;_blank&quot;&gt;liittovaltion tietosuojalain (BDSG)&lt;/a&gt; muodossa. Yliopistoihin sovelletaan suurelta osin osavaltioiden omia tietosuojalakeja. Eurooppalainen GDPR määrittelee henkilötiedoiksi kaikki tiedot, jotka liittyvät tunnistettuun tai tunnistettavissa olevaan luonnolliseen henkilöön (GDPR 4 artikla, 1 kohta). Henkilö on &lt;b&gt;tunnistettu&lt;/b&gt;, jos hänet voidaan yksiselitteisesti tunnistaa siitä, kenelle tiedot kuuluvat. Henkilöstä tulee &lt;b&gt;tunnistettavissa oleva&lt;/b&gt;, jos hänet voidaan tunnistaa lisätietojen avulla.</help>
 		<text lang="es">¿Esta colección de datos contiene datos personales?</text>
+		<text lang="fi">Sisältääkö tämä tietoaineisto henkilötietoja?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -3863,9 +4328,13 @@ A estas dos preguntas se refieren todas las preguntas detalladas hasta el final 
 		<help lang="es">Este tipo de datos se consideran particularmente sensibles y requieren medidas de protección suplementarias.
 
 Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el responsable de protección de datos de su institución para comprobar qué medidas de protección adicionales son necesarias.</help>
+		<help lang="fi">Tällaisia tietoja pidetään erityisen arkaluonteisina, ja ne edellyttävät vielä laajempia suojatoimia. Jos vastaat tähän kysymykseen &quot;Kyllä&quot;, ota yhteyttä organisaatiosi tietosuojavastaavaan sen selvittämiseksi, mitä lisäsuojatoimia tarvitaan.</help>
 		<text lang="es">¿La colección de datos contiene información sobre la identidad racial o étnica, sobre opiniones políticas, sobre creencias religiosas o filosóficas, sobre afiliaciones sindicales, sobre salud o preferencias sexuales?</text>
+		<text lang="fi">Sisältääkö tietoaineisto &quot;tietoja, joista ilmenee rotu tai etninen alkuperä, poliittisia mielipiteitä, uskonnollinen tai filosofinen vakaumus tai ammattiliiton jäsenyys&quot; tai geneettisiä tietoja tai &quot;biometrisiä tietoja luonnollisen henkilön yksiselitteistä tunnistamista varten, terveyttä koskevia tietoja tai luonnollisen henkilön seksuaalista käyttäytymistä tai suuntautumista koskevia tietoja&quot; (GDPR 9 artikla)?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -3902,9 +4371,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Se anonimizarán o seudonimizarán los datos?</text>
+		<text lang="fi">Anonymisoidaanko tai pseudonymisoidaanko aineisto?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -3943,9 +4416,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Básicamente, la recopilación, procesamiento, archivo y publicación de datos personales solo es admisible cuando se ha obtenido el &quot;consentimiento informado&quot; de la persona en cuestión.</help>
+		<help lang="fi">Lähtökohtaisesti henkilötietojen kerääminen, käsittely, arkistointi ja julkaiseminen on sallittua vain, kun kyseiseltä henkilöltä on saatu &quot;tietoon perustuva suostumus&quot;. Vain hyvin harvoissa poikkeustapauksissa tätä ei vaadita. Tarvittaessa ota yhteyttä organisaatiosi tietosuojavastaavaan saadaksesi tietoa suostumuksen edellytyksistä.</help>
 		<text lang="es">¿En qué medida se obtiene el &quot;consentimiento informado&quot; de las personas interesadas?</text>
+		<text lang="fi">Missä laajuudessa asianomaisilta henkilöiltä hankitaan tietoon perustuva suostumus?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -3984,9 +4461,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">Si no se obtiene el &quot;consentimiento informado&quot;, indique las razones para no hacerlo.</text>
+		<text lang="fi">Jos &quot;tietoon perustuvaa suostumusta&quot; ei hankita, perustele, miksi näin ei tehdä.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -4023,9 +4504,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Para cuándo se eliminarán de forma segura los datos originales (sin anonimizar o sin seudonimizar)?</text>
+		<text lang="fi">Mihin mennessä alkuperäiset (anonymisoimattomat tai pseudonymisoimattomat) tiedot poistetaan turvallisesti?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>date</widget_type>
@@ -4057,8 +4542,11 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<help lang="it"/>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Otros datos confidenciales</title>
+		<title lang="fi">Muu arkaluonteinen aineisto</title>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/sensitive-data-other/description" order="2"/>
@@ -4089,9 +4577,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Algunos ejemplos son los datos que contienen secretos comerciales o comerciales de información geográfica sobre especies en peligro de extinción.</help>
+		<help lang="fi">Esimerkkejä ovat aineistot, jotka sisältävät liike- tai ammattisalaisuuksia tai uhanalaisia lajeja koskevaa paikkatietoa.</help>
 		<text lang="es">¿Esta colección de datos contiene datos confidenciales que no sean datos personales?</text>
+		<text lang="fi">Sisältääkö tämä tietoaineisto muuta arkaluonteista aineistoa kuin henkilötietoja? Jos kyllä, kuvaa projektissa käytettävä muu kuin henkilötietoihin liittyvä arkaluonteinen aineisto.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -4123,8 +4615,11 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<title lang="es">Aprobación oficial</title>
+		<title lang="fi">Viranomaislupa</title>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/sensitive-data-official_approval/ethics_committee" order="1"/>
@@ -4158,9 +4653,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿El proyecto ha sido aprobado por un comité de ética de la investigación?</text>
+		<text lang="fi">Onko tutkimuseettinen toimikunta hyväksynyt projektin?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -4199,9 +4698,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Se necesita una aprobación/permiso legal para la investigación?</text>
+		<text lang="fi">Tarvitaanko tutkimukselle lakisääteinen hyväksyntä / lupa?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -4240,9 +4743,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">En caso afirmativo, ¿cuál permiso?</text>
+		<text lang="fi">Jos kyllä, mikä lupa?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -4279,9 +4786,13 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">En caso afirmativo, ¿cuál es la agencia responsable?</text>
+		<text lang="fi">Jos kyllä, mikä on vastuullinen viranomainen?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -4313,8 +4824,11 @@ Si responde &quot;Sí&quot; a esta pregunta, póngase en contacto con el respons
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<title lang="es">Derechos de propiedad intelectual I</title>
+		<title lang="fi">Immateriaalioikeudet I</title>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/intellectual-property-rights-yesno/yesno" order="0"/>
@@ -4354,9 +4868,13 @@ Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werk
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Los datos o el software pueden estar sujetos a derechos de propiedad intelectual o industrial. Las leyes aplicables difieren ampliamente incluso dentro de la UE.</help>
+		<help lang="fi">Aineisto tai ohjelmisto voi kuulua immateriaalioikeuksien tai teollisoikeuksien piiriin. Sovellettavat lait vaihtelevat suuresti jopa EU:n sisällä.</help>
 		<text lang="es">¿El proyecto utiliza y/o produce datos protegidos por derechos de propiedad intelectual o industrial?</text>
+		<text lang="fi">Käyttääkö ja/tai tuottaako projekti aineistoa, jota suojaavat immateriaalioikeudet tai teollisoikeudet?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -4388,8 +4906,11 @@ Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werk
 		<help lang="it"/>
 		<verbose_name lang="it">raccolta di dati</verbose_name>
 		<title lang="es">Derechos de propiedad intelectual II</title>
+		<title lang="fi">Immateriaalioikeudet II</title>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<verbose_name lang="es">colección de datos</verbose_name>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/ethics/intellectual-property-rights-dataset/copyrights" order="0"/>
@@ -4423,9 +4944,13 @@ Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werk
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Se aplica la ley de derechos de autor a esta colección de datos?</text>
+		<text lang="fi">Sovelletaanko tähän tietoaineistoon tekijänoikeuslakia?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -4464,9 +4989,13 @@ Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werk
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Se aplican otros derechos de propiedad intelectual a esta colección de datos?</text>
+		<text lang="fi">Sovelletaanko tähän tietoaineistoon muita immateriaalioikeuksia?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -4490,6 +5019,7 @@ Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werk
 		<title lang="fr">Autres aspects</title>
 		<title lang="it">Altri aspetti</title>
 		<title lang="es">Otros aspectos</title>
+		<title lang="fi">Muut näkökohdat</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/rdm_regulations/funding-funder" order="1"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/rdm_regulations/project-partners-partner" order="2"/>
@@ -4521,8 +5051,13 @@ Dans ce qui suit, vous disposerez d'un espace jusqu'à la fin du questionnaire p
 		<help lang="it">.....</help>
 		<verbose_name lang="it">Ente finanziatore</verbose_name>
 		<title lang="es">Reglas de los financiadores</title>
+		<title lang="fi">Rahoittajien säännöt</title>
 		<help lang="es">.....</help>
+		<help lang="fi">&lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&gt;Alkuperäinen kysymys:&lt;/a&gt; &lt;i&gt;Käytättekö tai aiotteko käyttää muita kansallisia, rahoittajakohtaisia, sektorikohtaisia tai osastokohtaisia menettelyjä aineistonhallinnassa? Jos kyllä, mitä menettelyjä (luetelkaa ja kuvatkaa ne lyhyesti)?&lt;/i&gt;
+
+Seuraavassa annetaan tilaa kyselyn loppuun asti menettelyjen lyhyelle kuvaamiselle sekä niiden soveltamisen perusteena olevien ohjeiden ja suositusten nimeämiselle. Menettelyjen tarkempia tietoja voidaan kuvata yllä olevissa kysymyksissä. Niihin voidaan vastaavasti viitata tässä kohdassa.</help>
 		<verbose_name lang="es">Financiador</verbose_name>
+		<verbose_name lang="fi">rahoittaja</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/rdm_regulations/funding-funder/funder_policy" order="2"/>
@@ -4583,9 +5118,22 @@ Dans ce qui suit, vous disposerez d'un espace jusqu'à la fin du questionnaire p
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Los financiadores de investigación también especifican cada vez más los requisitos relacionados con la gestión de los datos de investigación en sus proyectos financiados.</help>
+		<help lang="fi">Horizon Europe -rahoitteisten projektien on noudatettava seuraavia Euroopan komission asiakirjoja:
+
+- &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf&quot; target=&quot;_blank&quot;&gt;Programme Guide&lt;/a&gt;
+
+- &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf&quot; target=&quot;_blank&quot;&gt;Annotated Model Grant Agreement&lt;/a&gt;
+
+- &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf&quot; target=_blank&quot;&gt;Standard Proposal Template&lt;/a&gt;
+
+- &lt;a href=&quot;https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx&quot; target=_blank&quot;&gt;Data Management Plan Template&lt;/a&gt;
+</help>
 		<text lang="es">¿El financiador tiene reglas, directrices o recomendaciones para la gestión de datos? En caso afirmativo, descríbalos brevemente y consulte fuentes de información más detalladas si es necesario.</text>
+		<text lang="fi">Onko rahoittajalla aineistonhallintaa koskevia sääntöjä tai suosituksia? Jos kyllä, kuvaa ne lyhyesti ja viittaa tarvittaessa tarkempiin tietolähteisiin.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -4617,8 +5165,11 @@ Dans ce qui suit, vous disposerez d'un espace jusqu'à la fin du questionnaire p
 		<help lang="it"/>
 		<verbose_name lang="it">Partner del progetto</verbose_name>
 		<title lang="es">Socios del proyecto</title>
+		<title lang="fi">Projektikumppanit</title>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<verbose_name lang="es">Socio del proyecto</verbose_name>
+		<verbose_name lang="fi">projektikumppani</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/rdm_regulations/project-partners-partner/name" order="0"/>
@@ -4650,9 +5201,13 @@ Dans ce qui suit, vous disposerez d'un espace jusqu'à la fin du questionnaire p
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Ingrese el nombre del socio del proyecto en detalle.</help>
+		<help lang="fi">Kirjoita projektikumppanin nimi yksityiskohtaisesti.</help>
 		<text lang="es">Socio del proyecto</text>
+		<text lang="fi">Projektikumppani</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -4691,9 +5246,13 @@ Eine &lt;a href=&quot;https://www.forschungsdaten.org/index.php/Data_Policies#In
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">Cada vez más universidades e instituciones científicas adoptan políticas de gestión de datos de investigación. Estos contienen, entre otras cosas, recomendaciones y/o demandas relativas al manejo de los datos de investigación por parte de los investigadores de la institución.</help>
+		<help lang="fi">Yhä useammat yliopistot ja tieteelliset organisaatiot ottavat käyttöön tutkimusaineiston hallinnan linjauksia. Ne sisältävät muun muassa suosituksia ja/tai vaatimuksia, jotka koskevat organisaation tutkijoiden tutkimusaineiston käsittelyä.</help>
 		<text lang="es">¿Tiene su institución reglas, directrices o una política para el manejo de datos de investigación? En caso afirmativo, descríbalos brevemente y consulte fuentes de información más detalladas si es necesario. Indique también si las reglas/directrices/política son obligatorias u opcionales.</text>
+		<text lang="fi">Onko organisaatiollasi tutkimusaineiston käsittelyä koskevia sääntöjä tai ohjeita? Jos kyllä, kuvaa ne lyhyesti ja viittaa tarvittaessa tarkempiin tietolähteisiin. Ilmoita myös, ovatko säännöt/ohjeet pakollisia vai valinnaisia.</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -4725,8 +5284,11 @@ Eine &lt;a href=&quot;https://www.forschungsdaten.org/index.php/Data_Policies#In
 		<help lang="it"/>
 		<verbose_name lang="it"/>
 		<title lang="es">Otros reglamentos sobre la gestión de datos de la investigación</title>
+		<title lang="fi">Muut tutkimusaineiston hallinnan säännöt</title>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/rdm_regulations/rdm_regulations/rdm_policy_project" order="3"/>
@@ -4758,9 +5320,13 @@ Eine &lt;a href=&quot;https://www.forschungsdaten.org/index.php/Data_Policies#In
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es"/>
+		<help lang="fi"/>
 		<text lang="es">¿Existen directrices internas del proyecto para una organización coherente de los datos? Si es así, ¿dónde están documentados?</text>
+		<text lang="fi">Onko projektissa sisäisiä ohjeita aineiston yhdenmukaista järjestämistä varten? Jos on, missä ne on dokumentoitu?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -4803,9 +5369,13 @@ Eine &lt;a href=&quot;https://www.forschungsdaten.org/index.php/Data_Policies#In
 		<default_text lang="it"/>
 		<verbose_name lang="it"/>
 		<help lang="es">.....</help>
+		<help lang="fi">Esimerkki tieteenalakohtaisesta standardista on meteorologian ja ilmastotutkimuksen &lt;a href=&quot;http://cfconventions.org/&quot; target=_blank&gt;Climate and Forecast Metadata Convention&lt;/a&gt;.</help>
 		<text lang="es">¿Existen requisitos con respecto a la gestión de datos de otra procedencia (por ejemplo, de la comunidad académica/científica)?</text>
+		<text lang="fi">Onko muilla tahoilla, esimerkiksi tiedeyhteisöllä, aineistonhallintaan liittyviä vaatimuksia?</text>
 		<default_text lang="es"/>
+		<default_text lang="fi"/>
 		<verbose_name lang="es"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>

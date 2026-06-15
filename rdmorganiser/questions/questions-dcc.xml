@@ -15,6 +15,8 @@
 		<help lang="it"/>
 		<title lang="es">Lista de control del DCC 4.0</title>
 		<help lang="es"/>
+		<title lang="fi">DCC-tarkistuslista 4.0</title>
+		<help lang="fi"/>
 		<sections>
 			<section dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/administrative" order="0"/>
 			<section dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection" order="1"/>
@@ -35,6 +37,7 @@
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Hallinnolliset tiedot</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/administrative/project-description" order="1"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/administrative/project-policies" order="2"/>
@@ -61,6 +64,9 @@
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Projektin kuvaus</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/administrative/project-description/title" order="1"/>
@@ -96,6 +102,10 @@
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Tiivistä lyhyesti tutkimuksen tyyppi, jotta muut ymmärtävät, mihin tarkoituksiin aineistoa kerätään tai luodaan.</help>
+		<text lang="fi">Mikä on projektin keskeinen tutkimuskysymys?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -135,6 +145,10 @@
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitkä henkilöt tai organisaatiot vastaavat projektin koordinoinnista?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -174,6 +188,10 @@
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitkä henkilöt tai organisaatiot vastaavat projektin aineistonhallinnasta?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -207,6 +225,9 @@
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Projektin linjaukset</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/administrative/project-policies/rdm_policy" order="1"/>
@@ -244,6 +265,10 @@
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Onko organisaatiollasi sääntöjä tai ohjeita tutkimusaineiston käsittelystä? Jos on, kuvaa ne lyhyesti ja viittaa tarvittaessa tarkempiin tietolähteisiin. Ilmoita myös, ovatko säännöt tai ohjeet pakollisia vai valinnaisia.</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -288,6 +313,10 @@
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Tutkimusrahoittajat asettavat yhä useammin vaatimuksia tutkimusaineiston hallinnalle rahoitetuissa hankkeissa. Esimerkkejä ovat &lt;a href=&quot;http://www.dfg.de/en/research_funding/proposal_review_decision/applicants/submitting_proposal/research_data/index.html&quot; target=&quot;_blank&quot;&gt;DFG:n ohjeet tutkimusaineiston käsittelystä&lt;/a&gt; sekä Euroopan komission &lt;a href=&quot;http://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf&quot; target=&quot;_blank&quot;&gt;Horizon 2020 -ohjelman aineistonhallintaohjeet&lt;/a&gt;.</help>
+		<text lang="fi">Onko rahoittajalla aineistonhallintaa koskevia sääntöjä tai suosituksia? Jos on, kuvaa ne lyhyesti ja viittaa tarvittaessa tarkempiin tietolähteisiin. Ilmoita myös, ovatko säännöt tai ohjeet pakollisia vai valinnaisia.</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -327,6 +356,10 @@
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Onko muilla tahoilla, esimerkiksi tiedeyhteisöllä, aineistonhallintaan liittyviä vaatimuksia?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -348,6 +381,7 @@
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Aineiston kerääminen</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection/dataset-dataset" order="11"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection/dataset-format_size" order="12"/>
@@ -430,6 +464,36 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Mitä aineistoa keräät, tuotat tai käytät uudelleen?</title>
+		<help lang="fi">&lt;h3&gt;Aineiston jäsentäminen tietoaineistoiksi&lt;/h3&gt;
+
+Seuraavat kysymykset koskevat projektissa tuotetun tai uudelleenkäytetyn tutkimusaineiston sisältöä, muotoa, alkuperää ja hallintaa. Kysymyksiin on parasta vastata jakamalla aineisto loogisiin kokonaisuuksiin, koska eri kokonaisuudet voivat edellyttää erilaisia vastauksia. Samat kysymykset esitetään jokaisesta tällaisesta tietoaineistosta. Tietoaineistot voivat edustaa laajempia kategorioita, joilla on samankaltaisia ominaisuuksia ja aineistonhallinnan vaatimuksia.
+
+&lt;details&gt;&lt;summary style=&quot;cursor:pointer&quot;&gt;Napsauta tästä nähdäksesi vinkkejä projektiaineiston jakamiseen tietoaineistoiksi&lt;/summary&gt;
+
+&lt;p style=&quot;text-indent: 2em;margin-bottom:5px;&quot;&gt;Voit edetä seuraavasti:&lt;/p&gt;
+
+&lt;ul style=&quot;margin-bottom:5px;&quot;&gt;
+  &lt;li&gt;Muodosta yleiskuva tutkimustoiminnassasi tuotettavasta tai käytettävästä aineistosta.&lt;/li&gt;
+  &lt;li&gt;Arvioi aineistoa seuraavien kriteerien perusteella:&lt;ul&gt;
+    &lt;li&gt;Alkuperä/tuottaminen: tuotettu (esim. havainnointi/mittaus, koe, kysely, simulaatio, verkkoharavointi) tai uudelleenkäytetty;&lt;/li&gt;
+    &lt;li&gt;Tallennustilan tarve: esim. &amp;lt;1 GB, ~10 TB;&lt;/li&gt;
+    &lt;li&gt;Dokumentointivaatimukset:&lt;ul&gt;
+      &lt;li&gt;Esimerkki A: yksityiskohtainen kuvaus otoksen muodostamisesta ja aineistonkeruusta;&lt;/li&gt;
+      &lt;li&gt;Esimerkki B: mittalaitteiden ja mittausparametrien kuvaus;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+    &lt;li&gt;Tietosuojaan liittyvät näkökohdat: henkilötiedot, arkaluonteinen muu kuin henkilötieto, julkinen aineisto;&lt;/li&gt;
+    &lt;li&gt;Merkittävyys/uudelleenkäyttöpotentiaali: korkea (viiteaineisto), keskitaso (varsinainen tieteellinen tutkimus), matala (esiselvitys);&lt;/li&gt;
+    &lt;li&gt;Aineiston julkaiseminen: kyllä/ei, suunniteltu repositorio, suunniteltu toteutus ja rahoitus;&lt;/li&gt;
+    &lt;li&gt;Pitkäaikaissäilytys: kyllä/ei, suunniteltu tiedostomuoto, suunniteltu toteutus ja rahoitus.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+  &lt;li&gt;Päätä projektiaineiston tarkoituksenmukaisin jako tietoaineistoihin siten, että eri tietoaineistoihin sijoitetaan vain aineistoja, jotka eroavat näiden kriteerien kannalta olennaisesti. Luo sopiva määrä yhtenäisiä tietoaineistoja: riittävän monta, jotta ehdollisia vastauksia ei tarvita, mutta riittävän vähän, jotta samojen vastausten toistuminen vältetään.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;text-indent: 2em;&quot;&gt;Kaksi esimerkkiä projekteista, joissa aineistot on jaettu tietoaineistoihin, löytyy &lt;a href=&quot;https://gl.mathhub.info/cdi/labs/literacy/proposal-self-service/-/blob/main/RDMO/Beispiele_und_Hilfen/Hilfe_Datenkategorie_en.md&quot; target=&quot;_blank&quot;&gt;täältä&lt;/a&gt;.&lt;/p&gt;
+
+&lt;/details&gt;
+
+Anna jokaiselle tietoaineistolle kuvaava mutta lyhyt nimi, joka heijastaa tutkimustyötä. Tätä nimeä käytetään vastaavan välilehden otsikkona RDMOssa.</help>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection/dataset-dataset/description" order="1"/>
@@ -474,6 +538,14 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Kuvaa lyhyesti aineiston tyyppi ja/tai menetelmä, jolla aineisto on luotu tai kerätty, esimerkiksi:
+
+* määrällinen verkkokysely
+* 3D-malli / digitaalinen rekonstruktio kivikautisesta asuinpaikasta
+* projektissa kehitettävä ohjelmisto</help>
+		<text lang="fi">Millaisesta aineistosta on kyse?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -513,6 +585,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Luodaanko aineisto itse vai käytetäänkö sitä uudelleen?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -554,6 +630,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Jos aineistoa käytetään uudelleen, mistä osoitteesta, PID-tunnisteesta tai URL-osoitteesta tietoaineisto löytyy?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -593,6 +673,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Jos aineistoa käytetään uudelleen, kuka on luonut tietoaineiston?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -626,6 +710,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Minkä kokoista aineistoa odotat?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection/dataset-format_size/format" order="2"/>
@@ -662,6 +749,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Tiedostomuotoa valittaessa tulee huomioida vaikutukset yhteistyökäyttöön, pitkäaikaissäilytykseen ja uudelleenkäyttöön. On suositeltavaa suosia standardoituja, avoimia, ei-proprietaarisia ja kyseisessä tiedeyhteisössä vakiintuneita muotoja.</help>
+		<text lang="fi">Mitä tiedostomuotoja käytetään?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -701,6 +792,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mikä on tietoaineiston todellinen tai arvioitu koko?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -736,6 +831,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten versiointia käsitellään?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection/process-versioning/yesno" order="11"/>
@@ -771,6 +869,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Luodaanko tietoaineistosta eri versioita?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -810,6 +912,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Kuvaa lyhyesti projektin sisäiset säännöt tietoaineistojen versioinnille (esim. millaiset muutokset edellyttävät uutta versiota, miten muutokset dokumentoidaan ja miten eri versiot nimetään).</help>
+		<text lang="fi">Mitä versiointistrategiaa tälle tietoaineistolle sovelletaan?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -849,6 +955,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä teknologiaa tai työkalua versiointiin käytetään?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -884,6 +994,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten aineisto kerätään tai luodaan?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/collection/process-structure/creation_methods" order="1"/>
@@ -922,6 +1035,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Kuvaa, miten aineisto kerätään tai luodaan ja mitä yhteisön aineistostandardeja käytetään. Näitä tietoja tarvitaan, jotta aineiston syntyprosessi voidaan rekonstruoida. Ne ovat myös edellytys tietoaineiston objektiivisuuden, luotettavuuden ja validiteetin arvioinnille.</help>
+		<text lang="fi">Mitä välineitä, ohjelmistoja, teknologioita tai prosesseja käytetään aineiston tuottamiseen tai keräämiseen?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -961,6 +1078,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Onko projektissa sisäisiä ohjeita aineiston yhdenmukaiseen järjestämiseen? Jos on, missä ne on dokumentoitu?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -1002,6 +1123,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Onko projektissa sisäinen ohje aineiston nimeämiseen? Jos on, kuvaa nimeämiskäytännöt lyhyesti ja linkitä tarvittaessa dokumentaatioon.</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -1043,6 +1168,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä laadunvarmistustoimia aineistolle tehdään?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1064,6 +1193,7 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Dokumentaatio ja metatiedot</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/documentation_metadata/documentation-metadata" order="11"/>
 		</pages>
@@ -1089,6 +1219,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Mitä dokumentaatiota ja metatietoja aineiston mukana toimitetaan?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/documentation_metadata/documentation-metadata/scope" order="1"/>
@@ -1125,6 +1258,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä tietoja muut osapuolet tarvitsevat ymmärtääkseen aineiston (eli sen keruun tai luonnin, analyysin ja sen perusteella saadut tutkimustulokset) ja voidakseen käyttää sitä uudelleen?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1164,6 +1301,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Miten tämä dokumentaatio ja metatiedot kerätään tai luodaan?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1203,6 +1344,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä standardeja, ontologioita, luokituksia jne. käytetään aineiston ja kontekstitietojen kuvaamiseen?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1244,6 +1389,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Kuka vastaa metatietojen ja kontekstitietojen dokumentoinnista sekä niiden oikeellisuuden ja täydellisyyden tarkistamisesta?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1265,6 +1414,7 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Etiikka ja lainsäädännön noudattaminen</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/ethics_legal/ethics-personal_data" order="10"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/ethics_legal/ipr-ipr" order="20"/>
@@ -1291,6 +1441,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten käsittelet eettisiä kysymyksiä?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/ethics_legal/ethics-personal_data/yesno" order="1"/>
@@ -1326,6 +1479,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Sisältääkö aineisto henkilötietoja?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -1365,6 +1522,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Anonymisoidaanko tai pseudonymisoidaanko aineisto?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -1411,6 +1572,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Henkilötietojen kerääminen, käsittely, arkistointi ja julkaiseminen on lähtökohtaisesti sallittua vain, jos kyseiseltä henkilöltä on saatu tietoon perustuva suostumus. On vain hyvin harvoja tapauksia, joissa näin ei ole (katso lisätietoja myös: &lt;a href=&quot;http://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/informationen_fachwissenschaften/geisteswissenschaften/standards_recht.pdf&quot; target=&quot;_blank&quot;&gt;Informationen zu rechtlichen Aspekten bei der Handhabung von Sprachkorpora&lt;/a&gt;, s. 6).</help>
+		<text lang="fi">Missä laajuudessa asianomaisilta henkilöiltä hankitaan tietoon perustuva suostumus?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -1446,6 +1611,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten käsittelet tekijänoikeuksiin ja immateriaalioikeuksiin (IPR) liittyviä kysymyksiä?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/ethics_legal/ipr-ipr/copyrights" order="1"/>
@@ -1482,6 +1650,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Sovelletaanko tähän tietoaineistoon tekijänoikeuslakia?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1523,6 +1695,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Sovelletaanko tähän tietoaineistoon muita immateriaalioikeuksia?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1564,6 +1740,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Vaihtoehdot viittaavat &lt;a href=&quot;https://creativecommons.org/share-your-work/licensing-types-examples/&quot; target=&quot;_blank&quot;&gt;Creative Commons -perheen&lt;/a&gt; lisensseihin.</help>
+		<text lang="fi">Millä käyttöehdoilla tai lisenssillä tietoaineisto julkaistaan tai jaetaan?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -1605,6 +1785,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Onko selvitetty, kuka oikeudenhaltija on?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -1628,6 +1812,7 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Tallennus ja varmuuskopiointi</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/storage_backup/storage_backup-storage" order="11"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/storage_backup/security-access" order="20"/>
@@ -1654,6 +1839,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten aineisto tallennetaan ja varmuuskopioidaan tutkimuksen aikana?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/storage_backup/storage_backup-storage/type" order="1"/>
@@ -1689,6 +1877,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Missä tietoaineistoa säilytetään projektin aikana?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1728,6 +1920,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Miten ja kuinka usein aineistosta luodaan varmuuskopioita?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1767,6 +1963,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Kuka vastaa varmuuskopioista?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1800,6 +2000,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten hallitset pääsyä ja tietoturvaa?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/storage_backup/security-access/risks" order="1"/>
@@ -1834,6 +2037,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitkä ovat aineiston tietoturvariskit ja miten niitä hallitaan?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1873,6 +2080,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä toimia tai järjestelyjä on käytössä aineiston tietoturvan varmistamiseksi (esim. suojaus luvattomalta pääsyltä, aineiston palautus, arkaluonteisen aineiston siirto)?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1894,6 +2105,7 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Valinta ja säilyttäminen</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/selection_preservation/selection-selection" order="10"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/selection_preservation/preservation-archive" order="20"/>
@@ -1920,6 +2132,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Mikä aineisto tulisi säilyttää, jakaa ja/tai pitkäaikaissäilyttää?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/selection_preservation/selection-selection/selection_criteria" order="2"/>
@@ -1956,6 +2171,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitkä ovat kriteerit tai säännöt arkistoitavan aineiston valinnalle (projektin päättymisen jälkeen)?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -1995,6 +2214,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Tuleeko aineistolle asettaa embargoaika ennen sen saataville asettamista?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2034,6 +2257,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitkä henkilöt, ryhmät tai organisaatiot voisivat olla kiinnostuneita tämän tietoaineiston uudelleenkäytöstä? Mitkä ovat mahdollisia skenaarioita?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2073,6 +2300,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä aineistoa on säilytettävä tai hävitettävä sopimuksellisista, oikeudellisista tai sääntelyyn liittyvistä syistä?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2106,6 +2337,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Mikä on tietoaineiston pitkäaikaissäilytyssuunnitelma?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/selection_preservation/preservation-archive/repository" order="1"/>
@@ -2142,6 +2376,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mihin aineisto (mukaan lukien metatiedot, dokumentaatio ja tarvittaessa olennainen koodi) tallennetaan tai arkistoidaan projektin päättymisen jälkeen?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>checkbox</widget_type>
@@ -2183,6 +2421,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Kuinka kauan aineistoa säilytetään?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2222,6 +2464,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Arvioi työmäärä henkilökuukausina.</help>
+		<text lang="fi">Mitkä ovat projektin pitkäaikaissäilytykseen liittyvät henkilöstökustannukset?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>range</widget_type>
@@ -2261,6 +2507,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Arvioi kustannukset **euroina**.</help>
+		<text lang="fi">Mikä on projektin pitkäaikaissäilytykseen liittyvien muiden kuin henkilöstökustannusten määrä?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2282,6 +2532,7 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Aineiston jakaminen</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/sharing/sharing-sharing" order="10"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/sharing/sharing-pid" order="12"/>
@@ -2309,6 +2560,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Miten jaat aineiston?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/sharing/sharing-sharing/yesno" order="1"/>
@@ -2345,6 +2599,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Julkaistaanko tai jaetaanko tämä tietoaineisto?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -2386,6 +2644,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Jos ei, selitä miksi. Erottele oikeudelliset ja sopimukselliset syyt sekä vapaaehtoiset rajoitukset.</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2425,6 +2687,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Jos kyllä, miten mahdolliset käyttäjät löytävät aineistosi?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2464,6 +2730,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Milloin aineisto julkaistaan (jos se julkaistaan)?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>date</widget_type>
@@ -2497,6 +2767,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Aiotko hankkia aineistollesi pysyvän tunnisteen?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/sharing/sharing-pid/yesno" order="0"/>
@@ -2532,6 +2805,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Käytetäänkö tälle tietoaineistolle pysyviä tunnisteita (PID)?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>yesno</widget_type>
@@ -2571,6 +2848,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Mitä pysyvien tunnisteiden järjestelmää käytetään?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -2615,6 +2896,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Edellytys sille, että PID-tunnisteet toimivat luvattuun tapaan, on, että sekä tunnisteita että niihin viittaavia kohteita ylläpidetään jatkuvasti ja luotettavasti. Tämä tarkoittaa esimerkiksi sitä, että jos kohteen sijainti muuttuu, tieto päivitetään. Kun aineisto tallennetaan datakeskukseen tai repositorioon, näistä tehtävistä huolehtii yleensä datakeskus tai repositorio. Vastuut kannattaa kuitenkin varmistaa etukäteen.</help>
+		<text lang="fi">Kuka vastaa PID-tunnisteiden ylläpidosta ja kohteiden ylläpidosta (eli kuka ilmoittaa PID-palvelulle kohteen siirtymisestä ja uudesta osoitteesta)?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2648,6 +2933,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Tarvitaanko aineiston jakamiseen rajoituksia?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi">tietoaineisto</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/sharing/restrictions-restrictions/restrictions_explanation" order="5"/>
@@ -2683,6 +2971,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi">Kuvaa odotettavissa olevat vaikeudet pitkäaikaisesti arvokkaan aineiston jakamisessa sekä niiden syyt ja mahdolliset toimet niiden ratkaisemiseksi. Rajoitukset voivat johtua esimerkiksi luottamuksellisuudesta, suostumussopimusten puuttumisesta tai immateriaalioikeuksista. Harkitse, tarjoaisiko salassapitosopimus riittävän suojan luottamukselliselle aineistolle.</help>
+		<text lang="fi">Jos tämän tietoaineiston uudelleenkäytölle on rajoituksia, selitä miksi.</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2704,6 +2996,7 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="fr"/>
 		<title lang="it"/>
 		<title lang="es"/>
+		<title lang="fi">Vastuut ja resurssit</title>
 		<pages>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/responsibilities_resources/responsibilities-contact" order="0"/>
 			<page dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/responsibilities_resources/resources-resources" order="20"/>
@@ -2730,6 +3023,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Kuka vastaa aineistonhallinnasta?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/responsibilities_resources/responsibilities-contact/dmp_contact" order="1"/>
@@ -2765,6 +3061,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Kuka vastaa aineistonhallintasuunnitelman toteuttamisesta sekä sen tarkistamisesta ja päivittämisestä?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -2804,6 +3104,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Kuka vastaa kustakin aineistonhallinnan toiminnosta?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2843,6 +3147,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Sisällytetäänkö aineiston omistajuus ja tutkimusaineiston hallinnan vastuut kumppaneiden väliseen konsortiosopimukseen tai muuhun sopimukseen?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2876,6 +3184,9 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<title lang="es"/>
 		<help lang="es"/>
 		<verbose_name lang="es"/>
+		<title lang="fi">Mitä resursseja tarvitset suunnitelman toteuttamiseen?</title>
+		<help lang="fi"/>
+		<verbose_name lang="fi"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmorganiser.github.io/terms/questions/dcc/responsibilities_resources/resources-resources/cover_how" order="1"/>
@@ -2911,6 +3222,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Miten projektin aineistonhallinnan kustannukset katetaan?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>textarea</widget_type>
@@ -2950,6 +3265,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Missä määrin tarvitaan infrastruktuuriresursseja (esim. CPU-tunteja, kaistanleveyttä, tallennustilaa jne.)?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>
@@ -2991,6 +3310,10 @@ Geben Sie jedem &quot;Datensatz&quot; einen im Sinne der Forschungsarbeit aussag
 		<text lang="es"/>
 		<default_text lang="es"/>
 		<verbose_name lang="es"/>
+		<help lang="fi"/>
+		<text lang="fi">Onko olemassa todellisia tai mahdollisia käyttöskenaarioita, jotka voisivat hyötyä aineistonhallinnan tai IT-asiantuntijan tuesta tai jopa edellyttää tällaista tukea?</text>
+		<default_text lang="fi"/>
+		<verbose_name lang="fi"/>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>radio</widget_type>

@@ -15,6 +15,8 @@
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Ota yhteyttä IT- tai datanhallinta-asiantuntijaan</title>
+		<text lang="fi">Ota yhteyttä IT- tai datanhallinta-asiantuntijaan saadaksesi tukea datan käyttöön liittyvissä asioissa.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -37,6 +39,8 @@
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Selvitä eri kansainvälisten lainkäyttöalueiden seuraukset</title>
+		<text lang="fi">Ota yhteyttä organisaatiosi lakiosastoon tai vastaavaan yhteyshenkilöön selvittääksesi, onko tällä seurauksia hankkeelle ja sen datanhallinnalle, ja jos on, mitä nämä seuraukset ovat.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -65,6 +69,10 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Ota yhteyttä tietosuojavastaavaan erityisvaatimuksista</title>
+		<text lang="fi">Vähintään yksi tietoaineistoista sisältää BDSG:n § 3, 9 mukaan erityisen arkaluonteisia henkilötietoja.
+
+Ota yhteyttä organisaatiosi tietosuojavastaavaan tarkistaaksesi, mitä lisäsuojatoimia tarvitaan.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -87,6 +95,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Ota yhteyttä IT-osastoon infrastruktuuriresurssien hankkimiseksi</title>
+		<text lang="fi">Ota yhteyttä IT-osastoosi sopiaksesi tarvittavien infrastruktuuriresurssien tarjoamisesta.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -111,6 +121,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Ota yhteyttä oikeudenhaltijaan</title>
+		<text lang="fi">Selvitä, rajoittaako tämä pitkäaikaissäilytyksen ja uudelleenkäytön mahdollisuutta ja miten, sekä onko oikeudenhaltija valmis myöntämään tarvittavat oikeudet.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -135,6 +147,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Luo datan organisointikäytäntö</title>
+		<text lang="fi">Luo hankkeelle käytäntö datan yhdenmukaista organisointia varten.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -157,6 +171,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Luo datan nimeämiskäytäntö</title>
+		<text lang="fi">Luo ohjeistus datan yhdenmukaiseen nimeämiseen hankkeen sisällä.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -179,6 +195,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Määritä versionhallintatyökalu</title>
+		<text lang="fi">Määritä, mitä versionhallintatyökalua versionhallinnassa käytetään.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -203,6 +221,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Viimeistele ensimmäinen DMP</title>
+		<text lang="fi">Ensimmäinen DMP tulisi viimeistellä noin 3 kuukautta hankkeen alkamisen jälkeen.</text>
 		<start_attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/schedule/project_start"/>
 		<end_attribute/>
 		<days_before/>
@@ -225,6 +245,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Selvitä oikeudenhaltija</title>
+		<text lang="fi">Selvitä oikeudenhaltija ja ota häneen yhteyttä tarkistaaksesi, myönnetäänkö pitkäaikaissäilytykseen ja uudelleenkäyttöön tarvittavat oikeudet.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
@@ -247,6 +269,8 @@ Infomieren Sie sich bitte bei der/dem Datenschutzbeauftragten Ihrer Institution,
 		<text lang="it"/>
 		<title lang="es"/>
 		<text lang="es"/>
+		<title lang="fi">Ilmoita tietosuojavastaavalle</title>
+		<text lang="fi">Vähintään yksi tietoaineisto sisältää henkilötietoja. Ota yhteyttä vastuussa olevaan tietosuojavastaavaan.</text>
 		<start_attribute/>
 		<end_attribute/>
 		<days_before/>
